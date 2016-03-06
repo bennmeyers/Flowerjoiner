@@ -1,0 +1,13 @@
+	/* Large desktop */
+	@media (min-width: 781px) {
+		body {
+			padding-top: 40px;
+		}
+	}
+ 
+/* Portrait tablet to landscape and desktop */
+@media (max-width: 780px) {
+	body {
+		padding-top: 0;
+	}
+}

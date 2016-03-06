@@ -1,0 +1,24 @@
+Is there a non-structure specific way of finding the next element with a given class? for example you have a structure of 
+
+<div id="container1">
+  <a href="#" class="link1">link</a>
+  <div class="a1">asdf</div>
+</div><!-- #container1 -->
+
+<div id="container2">
+  <a href="#" class="link1">link</a>
+  <div class="a1">ghjl</div>
+</div><!-- #container2 -->
+
+<div id="container3">
+  <a href="#" class="link1">link</a>
+  <div class="a1">qwer</div>
+</div><!-- #container3 -->
+
+When you click on the link in container1 you want to change the css on a1 in container2 but not in container1 or container3. I have tried playing with parent, next and filter without success. this is the best I have is:
+
+$(document).ready(function(){
+  $(".link1").click(function(){
+    $(".a1").css({"visibility":"hidden"}); //hides all a1's but keeps the space
+  });
+});

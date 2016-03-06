@@ -1,0 +1,41 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <title>UI Test</title>
+  <script src="jscript/jquery.js" type="text/javascript"></script>
+  <script src="jscript/shared.js" type="text/javascript"></script>
+  <link href="css/test_1.css" rel="stylesheet" type="text/css" media="all" />
+</head>
+<body>
+<div id="outerwrapper">
+	<div id="innerwrapper">
+  	<p>Click the contributors link to show the popover</p>
+  	<a href="#contributors" class="popover">Contributers</a>
+    <div class="popover_container" id="contributors">
+      <h1>Top Contributors</h1><!-- h1 for SEO purposes on this stand alone page, amoung other elements though it will go down to an h3 or h4 -->
+      <div class="popover_close"><img src="images/close.gif" alt="x" /></div><!-- .popover_close -->
+      <div class="contributor first">
+        <img src="images/contributors/1.jpg" alt="Jim Thomas" /><!-- 509 compliency requires the alt tag, even if it's blank -->
+        <div class="contributor_name">Jim Thomas</div><!-- .contributor_name -->
+        <div class="contributor_title">President</div><!-- .contributor_title -->
+      </div><!-- .contributor -->
+      <div class="contributor">
+        <img src="images/contributors/2.jpg" alt="Tom Johnson" /><!-- 509 compliency requires the alt tag, even if it's blank -->
+        <div class="contributor_name">Tom Johnson</div><!-- .contributor_name -->
+        <div class="contributor_title">Vice-President</div><!-- .contributor_title -->
+      </div><!-- .contributor -->
+      <div class="contributor last">
+        <img src="images/contributors/3.jpg" alt="Jack Wallace" /><!-- 509 compliency requires the alt tag, even if it's blank -->
+        <div class="contributor_name">Jack Wallace</div><!-- .contributor_name -->
+        <div class="contributor_title">Vice-President</div><!-- .contributor_title -->
+      </div><!-- .contributor -->
+      <div class="popover_navigation">
+        <a href="" class="external">View other profiles &gt;</a>
+      	<div class="internal"><a href="">Previous</a> | <a href="">Next</a></div><!-- .internal -->
+      </div><!-- .popover_navigation -->
+    </div><!-- .element_container -->
+	</div><!-- #innerwrapper -->
+</div><!-- #outerwrapper -->
+</body>
+</html>

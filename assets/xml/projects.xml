@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<projects version="1" xmlns="http://xspf.org/ns/0/">
+	<professional>
+		<project>
+			<website>Norse Corporation v5</website>
+			<section>Site</section>
+			<link></link>
+			<description>A highly security-minded company concentrating on internet security. I made CSS, HTML, modified the Javascript and used the, for this design I  took the wordpress theme provided to us and made suggestions and countless changes.</description>
+			<thumbnail>norse_v5</thumbnail>
+			<demolink></demolink>
+		</project>
+		<project>
+			<website>Norse Corporation v4</website>
+			<section>Site</section>
+			<link></link>
+			<description>For this release I made CSS, HTML, modified the Javascript and used the jQuery library.</description>
+			<thumbnail>norse_v4</thumbnail>
+			<demolink></demolink>
+		</project>
+		<project>
+			<website>Norse Corporation v3</website>
+			<section>Site</section>
+			<link></link>
+			<description>For this release I made changes to the CSS, HTML, modified the Javascript and used the jQuery library.</description>
+			<thumbnail>norse_v3</thumbnail>
+			<demolink></demolink>
+		</project>
+		<project>
+			<website>Norse Map v3</website>
+			<section>Map Site</section>
+			<link></link>
+			<description>I made CSS, HTML, modified the Javascript and used the jQuery library.</description>
+			<thumbnail>norsecorp_v2</thumbnail>
+			<demolink></demolink>
+		</project>
+		<project>
+			<website>Norse Map v2</website>
+			<section>Map Site</section>
+			<link></link>
+			<description>I made CSS, HTML, modified the Javascript and used the jQuery library.</description>
+			<thumbnail>norsecorp</thumbnail>
+			<demolink></demolink>
+		</project>
+		<project>
+			<website>GetInsured.com</website>
+			<section>Site</section>
+			<link>http://www.getinsured.com/</link>
+			<description>is a site based on the UX 2014 health initiative. I made CSS, HTML, and used  the jQuery library and Bootstrap to build initial designs in UI.</description>
+			<thumbnail>getinsured</thumbnail>
+			<demolink></demolink>
+		</project>
+		<project>
+			<website>ArchimedesModel.com</website>
+			<section>Site</section>
+			<link>http://www.archimedesmodel.com/</link>
+			<description>is a site that provided biometrics for educational institutions and pharmaceutical companies. I made CSS, HTML, and used the jQuery library.</description>
+			<thumbnail>archimedes</thumbnail>
+			<demolink></demolink>
+		</project>
+		<project>
+			<website>SerenaAndLily.com</website>
+			<section>Customizer</section>
+			<link>http://www.serenaandlily.com/</link>
+			<description>is a functional area. I made the CSS, HTML, and used the jQuery library. I also helped to design the functionality and look.</description>
+			<thumbnail>sl_1</thumbnail>
+			<demolink>demos/customizer.html</demolink>
+		</project>
+		<project>
+			<website>SerenaAndLily.com</website>
+			<section>Inspiration</section>
+			<link>http://www.SerenaAndLily.com/</link>
+			<description>is built to show the personal side of the company. I built the CSS, HTML and jQuery for the new section after being given mocks.</description>
+			<thumbnail>sl_4</thumbnail>
+			<demolink></demolink>
+		</project>
+		<project>
+			<website>SerenaAndLily.com</website>
+			<section>Bazaar</section>
+			<link>http://www.SerenaAndLily.com/</link>
+			<description>The idea behind the bazaar is to sell the "props" used in the catalog. I built the CSS, HTML and javascript for this area.</description>
+			<thumbnail>sl_3</thumbnail>
+			<demolink></demolink>
+		</project>
+		<project>
+			<website>SerenaAndLily.com</website>
+			<section>Site</section>
+			<link>http://www.SerenaAndLily.com/</link>
+			<description>is redesigned to match the catalog. I took ideas from the design and transformed them into functional CSS, HTML and Javascript.</description>
+			<thumbnail>sl_2</thumbnail>
+			<demolink></demolink>
+		</project>
+		<project>
+			<website>World Repair Kids</website>
+			<section>Initial Site</section>
+			<link>http://www.worldrepairkids.org/</link>
+			<description>is a site started by the Serena and Lily foundation. It uses a form submitting to an external site, and has my CSS, HTML and jQuery.</description>
+			<thumbnail>wrk_1</thumbnail>
+			<demolink></demolink>
+		</project>
+		<project>
+			<website>Photon</website>
+			<section>Redesign</section>
+			<link>http://www.photoncreative.com/</link>
+			<description>is a project where I was provided a mock to work from, then created CSS, HTML and javascript to make a new site.</description>
+			<thumbnail>photon_2</thumbnail>
+			<demolink></demolink>
+		</project>
+		<project>
+			<website>Photon</website>
+			<section>Site Recoding</section>
+			<link>http://www.photoncreative.com/</link>
+			<description>I was assigned the task of remaking the site to modernize it. I changed the CSS, HTML and structure of the pages.</description>
+			<thumbnail>photon_1</thumbnail>
+			<demolink></demolink>
+		</project>
+		<project>
+			<website>TrueInsider.com</website>
+			<section>Initial Site</section>
+			<link>http://www.trueinsider.com/</link>
+			<description>was designed with the intent of empowering employees. I made the initial CSS, HTML, and jQuery and helped out with code.</description>
+			<thumbnail>ti_1</thumbnail>
+			<demolink></demolink>
+		</project>
+		<project>
+			<website>Minted.com</website>
+			<section>Holiday Home 2008</section>
+			<link>http://www.minted.com/</link>
+			<description>is a site where I was provided a mock home page, from which I made the CSS and HTML. I used grids and personal techniques to build the pages.</description>
+			<thumbnail>mintedHome_08-10</thumbnail>
+			<demolink></demolink>
+		</project>
+		<project>
+			<website>Minted.com</website>
+			<section>Holiday Popover 2008</section>
+			<link>http://www.minted.com/</link>
+			<description>is designed as a new popover for the search results page. I made the HTML and CSS for it to match the design mock.</description>
+			<thumbnail>mintedPopover_08-10</thumbnail>
+			<demolink></demolink>
+		</project>
+		<project>
+			<website>Minted.com</website>
+			<section>Community Pages</section>
+			<link>http://www.minted.com/</link>
+			<description>is designed to accept community submissions of designs. I made the CSS, HTML and javascript for this dynamic area.</description>
+			<thumbnail>mintedCommunity</thumbnail>
+			<demolink></demolink>
+		</project>
+		<project>
+			<website>Vimo.com</website>
+			<section>Dr Reports</section>
+			<link>http://www.vimo.com/</link>
+			<description>are in a flow of CSS, HTML, Javascript and SMARTY templates to provide information. To get to it go through the Dr. Details and ask for a report.</description>
+			<thumbnail>vimo_DrReport_08-02</thumbnail>
+			<demolink></demolink>
+		</project>
+		<project>
+			<website>Vimo.com</website>
+			<section>Carrier and Plan Profiles</section>
+			<link>http://www.vimo.com/</link>
+			<description>is designed to give the customer profiles on the different Carriers and Plans. The pages are SMARTY templates to insert CMS data.</description>
+			<thumbnail>vimo_carrier_08-03</thumbnail>
+			<demolink></demolink>
+		</project>
+		<project>
+			<website>Vimo.com</website>
+			<section>FAQ</section>
+			<link>http://www.vimo.com/</link>
+			<description>is designed with the intent of educating customers about what health care means and what to be looked for.</description>
+			<thumbnail>vimo_FAQ_08-03</thumbnail>
+			<demolink></demolink>
+		</project>
+		<project>
+			<website>RealtyTrac.com</website>
+			<section>Property Search Results</section>
+			<link>http://www.realtytrac.com/</link>
+			<description>I negotiated feasibility of the pages with the programmers and worked directly with the marketing team and designers.</description>
+			<thumbnail>rtSearchResults_07-09</thumbnail>
+			<demolink></demolink>
+		</project>
+
+		<project>
+			<website>ForeclosurePulse.com</website>
+			<section>Site</section>
+			<link>http://www.foreclosurepulse.com/</link>
+			<description>I created this entire site from scratch for RealtyTrac.com during January and February of 2006.</description>
+			<thumbnail>foreclosurePulse</thumbnail>
+			<demolink></demolink>
+		</project>
+	</professional>
+	<personal>
+		<project>
+			<website>Pacific Crush</website>
+			<section>Site</section>
+			<link>http://www.pacificcrush.org/</link>
+			<description>is a site created to promote and provide information on the women's bicycle racing team Pacific Crush.</description>
+			<thumbnail>pacificcrush</thumbnail>
+			<demolink></demolink>
+		</project>
+		<project>
+			<website>Be Aspired</website>
+			<section>Initial Site</section>
+			<link>http://www.beaspired.com/</link>
+			<description>is a site for companies to find new employees specializing in a field. At launch I made the HTML, CSS and javascript as dynamic as possible,</description>
+			<thumbnail>beAspired</thumbnail>
+			<demolink></demolink>
+		</project>
+		<project>
+			<website>jpMonkey</website>
+			<section>Site</section>
+			<link>#</link>
+			<description>is a website promoting environmentally conscious grocery bags. I mirrored the client's real-world products and designed a site for the sale of the bags.</description>
+			<thumbnail>JPMonkey</thumbnail>
+			<demolink></demolink>
+		</project>
+		<project>
+			<website>Platinum Weddings by Kerrie</website>
+			<section>Initial Site</section>
+			<link>http://www.PlatinumWeddingsbyKerrie.com/</link>
+			<description>is a site for Kerrie to advertise herself and show demos of her work. I made several design and logo concepts.</description>
+			<thumbnail>platinumWeddings</thumbnail>
+			<demolink></demolink>
+		</project>
+		<project>
+			<website>Help Dress You</website>
+			<section>Initial Site</section>
+			<link>#</link>
+			<description>is a website I made the base HTML and CSS for into a table-less and semantic form. I then passed on the HTML to the owner, who wanted to learn to do HTML herself.</description>
+			<thumbnail>helpDressYou_08-04</thumbnail>
+			<demolink></demolink>
+		</project>
+		<project>
+			<website>Kerrie and Greg</website>
+			<section>Site</section>
+			<link>#</link>
+			<description>was a wedding website promoting their joining. It featured photos of the couple, a guestbook, and wedding information.</description>
+			<thumbnail>kerrieGreg</thumbnail>
+			<demolink></demolink>
+		</project>
+		<project>
+			<website>CCIndex</website>
+			<section>Initial Site</section>
+			<link>http://www.ccindex.info/</link>
+			<description>is a project for someone who asked me to organize the periodicals and books in his library (10k+), so I made the search engine and website in PHP.</description>
+			<thumbnail>ccindex_04</thumbnail>
+			<demolink></demolink>
+		</project>
+		<project>
+			<website>The Art of Japan</website>
+			<section>Site</section>
+			<link>http://library.thinkquest.org/27458/</link>
+			<description>is a ThinkQuest project conveying a high-level understanding of several forms of Japanese art. The site received a gold medal.</description>
+			<thumbnail>artOfJapan</thumbnail>
+			<demolink></demolink>
+		</project>
+		<project>
+			<website>David Mohler MD</website>
+			<section>Initial Site</section>
+			<link>http://www.docmohler.com/</link>
+			<description>wanted a web presence, so in 2001 he hired me to create a website. The site has been modified but the CSS, HTML and color scheme I used remain unchanged.</description>
+			<thumbnail>davidMohler_MD</thumbnail>
+			<demolink></demolink>
+		</project>
+		<project>
+			<website>MonkeyDojo</website>
+			<section>Site</section>
+			<link>#</link>
+			<description>is a blog site I set up and maintained on a local machine. The site was targeted at my friends who talked a lot about Web Dev and cooking.</description>
+			<thumbnail>monkeyDojo_v1</thumbnail>
+			<demolink></demolink>
+		</project>
+	</personal>
+</projects>

@@ -1,0 +1,372 @@
+/******************** global elements ********************/
+body{background:#ddd url(/testscripts/flowerJoiner/images/bg_body.png) scroll repeat-x 0 0;color:#333;font:normal 10px Georgia, serif;
+}
+
+a:link,
+a:active,
+a:visited
+{
+    color:              #2c5a85;
+    text-decoration:    underline;
+}
+
+a:hover
+{
+    color:              #2c5a85;
+    text-decoration:    none;
+}
+
+ol li
+{
+    margin:             0 0 0 2em;
+    
+    list-style:         decimal;
+}
+
+h2
+{
+    color:              #222;
+    font-size:          1.6em;
+    font-weight:        bold;
+    
+    margin:             .5em 0;
+}
+
+h3
+{
+    font-size:          1.2em;
+    font-weight:        bold;
+    
+    margin:             1.5em 0 .7em;
+}
+
+p
+{
+    margin:             0.2em 0 0.4em;
+}
+
+hr
+{
+    border:             0;
+    border-top:         1px solid #2c5a85;
+}
+
+/******************** global styles ********************/
+
+/********** header **********/
+div#header
+{
+	background:         transparent url('/testscripts/flowerjoiner/images/title.png') scroll no-repeat 0 0;
+	
+	margin:             0 auto;
+	width:              900px;
+	height:						176px;
+}
+
+/********** content **********/
+div#content
+{	
+	background:         transparent url('/testscripts/flowerjoiner/images/bg_body_content.png') scroll repeat 0 0;
+	margin:             0 auto;
+	width:              900px;
+}
+
+div#mainContent
+{
+	padding:             4em;
+}
+
+div#mainContent P,
+div#mainContent UL,
+div#mainContent LI
+{
+	font-size:        1.1em;
+}
+
+/********** footer **********/
+div#footer
+{
+	background:         transparent url('/testscripts/flowerjoiner/images/bg_body_content.png') scroll repeat 0 0;
+	text-align:       center;
+	
+	height:           4em;
+	margin:						0 auto 3em;
+	padding:					.5em 0;
+	width:            900px;
+}
+
+.first
+{
+	margin-top:         0;
+	padding-top:        0;
+}
+
+.clearB
+{    
+	height:             .1em;
+	
+	clear:              both;
+}
+
+A.img:hover,
+A.img:link,
+A.img:visited,
+A.img:active
+{
+	background:         0;
+	
+	text-decoration:    none;
+	
+	border:             0;
+}
+
+.practices
+{
+	margin-left:   .5em;
+}
+
+.popUpAnchor
+{
+	position:      relative;
+}
+
+.popUp
+{    
+	background:    #fff;
+	color:         #000;
+	font-size:     .9em;
+	
+	border:        1px solid #000;
+	height:        30em;
+	padding:       10px;
+	width:         30em;
+	
+	display:       none;
+	overflow:      scroll;
+	position:      absolute;
+	top:           .5em;
+	right:         -29.5em;
+}
+/******************** portfolio styles ********************/
+
+/********** footer **********/
+div#footer IMG.email
+{
+	float:        left;
+	padding:      0 40px;
+}
+
+div#footer IMG.copy
+{
+	float:        right;
+	padding:      0 40px;
+}
+
+/*********** code **********/
+#code
+{
+	
+	margin:				20px 0;
+}
+
+#code H2
+{
+	background:         url('/testscripts/flowerjoiner/images/i_leaf.gif') no-repeat;
+	
+	margin:				0;
+	padding:            1.25em 0 .5em 1.9em;
+}
+
+#code UL#codePractices LI
+{
+	color:				#000;
+	
+	margin:				0;
+	padding:			0;
+	
+	float:				left;
+}
+
+#code UL#codePractices LI A
+{
+	color:						#000;
+	text-decoration:			none;
+	
+	padding:					0 4em 0 0;
+}
+
+#code UL#codePractices LI A.active
+{
+	font-weight:			bold;
+	text-decoration:	none;
+}
+
+#code #codeDescription
+{
+	padding:			10px 0 20px;
+	
+	clear:				both;
+}
+
+/********** #code **********/
+
+#code{border-bottom:1px solid #2C5A85;}
+
+
+/********** practices **********/
+.practices .example
+{
+	color:              #333;
+	font:               0.8em courier, monospace;
+	
+	padding:            .5em;
+	
+	clear:              both;
+}
+
+
+/********** codeView **********/
+#designs
+{
+	border-bottom:			1px solid #2c5a85;
+}
+
+#designs h3
+{
+	clear:					both;
+	font-size:			1.4em;
+}
+
+.codeView
+{
+	background:     #eee;
+	color:          #666;
+	font:           0.8em courier, monospace;
+	
+	border:         1px solid #999;
+	height:         10em;
+	width:					100%;
+	
+	overflow:		    scroll;
+	white-space:    none;
+}
+
+/***** examples *****/
+	div.projectType{
+		padding-bottom:		10px;
+	}
+	
+	div.designExample
+	{
+		text-align:   center;
+		overflow:			hidden;
+	
+		float:				left;
+		height:				200px;
+		width:				256px;
+		
+		margin:				5px;
+	}
+	
+	div.designExample.first
+	{
+		text-align:   left;
+		
+		margin:				5px 5px 5px 0;
+	}
+	
+	div.designExample.last
+	{
+		text-align:   right;
+		
+		margin:				5px 0 5px 5px;
+	}
+	
+	div.designExample.last p.description
+	{
+		text-align:   right;
+		
+		margin:				5px 0 5px 5px;
+	}
+	
+	div.designExample IMG
+	{
+		overflow:			hidden;
+		
+		width:        200px;
+		height:				134px;
+	}
+	
+	div.designExample IMG.dc
+	{
+		border:       1px solid #000;
+		width:        100px;
+	}
+	P.description{
+		text-align:		left;
+	}
+
+/********** request a theme **********/
+#requestTheme
+{
+	clear:				both;
+}
+
+
+/********** contact form **********/
+.error
+{
+	color:				#c00;
+}
+
+.hidden
+{
+	display:			none;
+}
+
+.contact .buttondiv .button
+{
+	float:				right;
+}
+
+.contact label,
+.contact input.text,
+.contact textarea
+{
+	float:				left;
+	
+	width:				25em;
+}
+
+.contact textarea
+{
+	height:				10em;
+}
+
+.contact input
+{
+	float:				left;
+}
+
+.contact label,
+.contact span
+{
+	font-size:			1.1em;
+	font-weight:		bold;
+	
+	width:					25em;
+}
+
+.contact .hList label
+{
+	font-weight:		normal;
+	
+	width:					10em;
+}
+
+.contact div
+{
+	padding-top:		1em;
+	
+	clear:					both;
+}

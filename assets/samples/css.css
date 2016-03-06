@@ -1,0 +1,114 @@
+body,html{background:#000;color:#333;font:normal 14px "Trebuchet MS", Verdana, Arial, Sans-Serif;letter-spacing:1px}
+a,a:link,a:hover,a:active,a:visited{color:#489cb3;text-decoration:none}
+.alone h2{width:705px}
+h2{background:#000;color:#fff;display:block;font-weight:normal;letter-spacing:2px;text-transform:uppercase;width:350px;padding:8px}
+p{clear:both}
+#outerwrapper{background-color:#000;width:750px;margin:0 auto}
+#innerwrapper{background-color:#fff;width:auto;margin:0 auto;padding:50px 0}
+.column{border-bottom:1px solid #000;display:block;float:left;width:345px;margin:15px}
+.column h2{margin-top:0;width:auto}
+#header{height:auto;overflow:auto;position:relative;margin:0}
+#header #home{overflow:hidden;margin:15px}
+#header #home,#header #home a:link,#header #home a:hover,#header #home a:active,#header #home a:visited{background:transparent url(../images/logo-pacific_crush.png) no-repeat scroll 0 0;color:#333;display:block;float:left;font-size:30px;height:79px;text-decoration:none;text-indent:-10000px;width:399px}
+#header #icons{bottom:10px;position:absolute;right:6px}
+#header #icons a:link,#header #icons a:hover,#header #icons a:active,#header #icons a:visited{border:0 none;display:block;float:left;height:39px;text-indent:-10000px;width:39px;margin:6px}
+#header #icons .facebook{background:url(../images/icons/facebook_d.png)}
+#header #icons .facebook:hover{background:url(../images/icons/facebook_h.png)}
+#header #icons .twitter{background:url(../images/icons/twitter_d.png)}
+#header #icons .twitter:hover{background:url(../images/icons/twitter_h.png)}
+#header #icons .email{background:url(../images/icons/email_d.png)}
+#header #icons .email:hover{background:url(../images/icons/email_h.png)}
+.ad{background:#eae8e9;display:block;float:left;height:109px;text-indent:-10000px;width:361px;margin:2px}
+#navigation,#main_image{background-color:#000;border-bottom:10px solid #489cb3;float:left;list-style-type:none;width:100%;margin:0 0 10px;padding:0}
+#navigation li{float:left;list-style-type:none}
+#navigation .active a,#navigation .active a:link,#navigation .active a:hover,#navigation .active a:active,#navigation .active a:visited{color:#fff}
+#navigation a,#navigation a:link,#navigation a:visited{border-bottom-width:0;color:#929292;display:block;font-size:14px;float:left;letter-spacing:2px;text-transform:uppercase;padding:12px}
+#navigation a:hover,#navigation a:active{background-color:#000;color:#fff;letter-spacing:2px}
+.alone,#main_content{clear:both;padding:0 15px}
+.alone{padding:10px 15px}
+#home_page .about_column h2{margin-bottom:12px}
+#home_page .twtr-widget{font-family:inherit!important;font-size:inherit!important}
+#home_page .twtr-widget .twtr-tweet-wrap{border-bottom:1px dotted #929292;padding:12px 0}
+#about_page h2{margin-top:0}
+#team_page .person{height:550px;overflow:hidden;margin:15px 15px 0}
+#team_page .person h3{background:#000;color:#fff;display:block;font-weight:normal;letter-spacing:2px;text-transform:uppercase;margin:10px 0;padding:8px}
+#team_page .person img{background:#ccc;color:#666;display:block;height:150px;width:175px}
+#team_page .person h2{background:#eee;color:#333;margin:10px 0}
+#team_page .person h2 span{display:inline;float:none}
+#team_page .person h2 .name{color:#489cb3;text-transform:capitalize}
+#team_page .person h6,#team_page .person span{display:block;float:left;line-height:23px}
+#team_page h6{color:#489cb3;text-transform:uppercase;width:180px}
+#contact_page .contact_column div{clear:both;height:auto}
+#contact_page label,#contact_page input{display:block;float:left}
+#contact_page label{text-transform:uppercase;width:100px;padding-bottom:5px}
+#contact_page input,#contact_page textarea{border:1px solid #000;color:#489cb3;margin-bottom:10px;width:231px;padding:5px}
+#contact_page textarea{width:333px}
+#contact_page .buttondiv{text-align:right}
+#contact_page .buttondiv input{background:#000;border:0;color:#fff;display:inline;float:none;letter-spacing:2px;text-transform:uppercase;width:auto}
+#sponsors_page #main_content{height:auto;padding:0}
+#sponsors_page #main_content a,#sponsors_page #main_content a:link,#sponsors_page #main_content a:hover,#sponsors_page #main_content a:active,#sponsors_page #main_content a:visited{display:block}
+#sponsors_page #main_content .sponsor{border-bottom:1px solid #000;float:left;height:310px;line-height:20px;text-align:left;width:325px;margin:15px;padding:10px}
+#sponsors_page #main_content .first_row{height:200px;width:700px}
+#sponsors_page #main_content .second_row{height:375px}
+#sponsors_page #main_content .third_row{height:530px}
+#sponsors_page #main_content .fourth_row{height:280px}
+#sponsors_page #main_content .fifth_row{height:360px}
+#sponsors_page #main_content .sponsor a.logo:link,#sponsors_page #main_content .sponsor a.logo:visited,#sponsors_page #main_content .sponsor a.logo:hover,#sponsors_page #main_content .sponsor a.logo:active{background-repeat:no-repeat;background-position:0 bottom;height:61px;text-indent:-9999px}
+#sponsors_page #main_content #lithium_tech a.logo:link,#sponsors_page #main_content #lithium_tech a.logo:visited,#sponsors_page #main_content #lithium_tech a.logo:hover,#sponsors_page #main_content #lithium_tech a.logo:active{background-image:url(../images/sponsors_page/lithium-d.png);width:371px}
+#sponsors_page #main_content #j_bodyworks a.logo:link,#sponsors_page #main_content #j_bodyworks a.logo:visited,#sponsors_page #main_content #j_bodyworks a.logo:hover,#sponsors_page #main_content #j_bodyworks a.logo:active{background-image:url(../images/sponsors_page/jbodyworks-d.png);width:221px}
+#sponsors_page #main_content #threed_bikefit a.logo:link,#sponsors_page #main_content #threed_bikefit a.logo:visited,#sponsors_page #main_content #threed_bikefit a.logo:hover,#sponsors_page #main_content #threed_bikefit a.logo:active{background-image:url(../images/sponsors_page/3Dbikefit-d.png)}
+#sponsors_page #main_content #danny_coyles a.logo:link,#sponsors_page #main_content #danny_coyles a.logo:visited,#sponsors_page #main_content #danny_coyles a.logo:hover,#sponsors_page #main_content #danny_coyles a.logo:active{background-image:url(../images/sponsors_page/dannycoyles-d.png)}
+#sponsors_page #main_content #happy_hound a.logo:link,#sponsors_page #main_content #happy_hound a.logo:visited,#sponsors_page #main_content #happy_hound a.logo:hover,#sponsors_page #main_content #happy_hound a.logo:active{background-image:url(../images/sponsors_page/happyhound-d.png);width:184px}
+#sponsors_page #main_content #sparkpr a.logo:link,#sponsors_page #main_content #sparkpr a.logo:visited,#sponsors_page #main_content #sparkpr a.logo:hover,#sponsors_page #main_content #sparkpr a.logo:active{background-image:url(../images/sponsors_page/sparkpr-d.png);width:143px}
+#sponsors_page #main_content #roll_sf a.logo:link,#sponsors_page #main_content #roll_sf a.logo:visited,#sponsors_page #main_content #roll_sf a.logo:hover,#sponsors_page #main_content #roll_sf a.logo:active{background-image:url(../images/sponsors_page/rollsf-d.png);width:157px}
+#sponsors_page #main_content #osmo a.logo:link,#sponsors_page #main_content #osmo a.logo:visited,#sponsors_page #main_content #osmo a.logo:hover,#sponsors_page #main_content #osmo a.logo:active{background-image:url(../images/sponsors_page/osmo-d.png);width:128px}
+#sponsors_page #main_content #synchro a.logo:link,#sponsors_page #main_content #synchro a.logo:visited,#sponsors_page #main_content #synchro a.logo:hover,#sponsors_page #main_content #synchro a.logo:active{background-image:url(../images/sponsors_page/synchro-d.png);width:169px}
+#sponsors{clear:both;display:block;height:auto;width:720px;margin:15px}
+#sponsors #hosie_rice_llp a:link,#sponsors #hosie_rice_llp a:visited{background-image:url(../images/sponsors/l_m-hosie_rice_llp-d.png)}
+#sponsors #hosie_rice_llp a:hover,#sponsors #hosie_rice_llp a:active{background-image:url(../images/sponsors/l_m-hosie_rice_llp-h.png)}
+#sponsors #bridgeway_gym a:link,#sponsors #bridgeway_gym a:visited{background-image:url(../images/sponsors/l_m-bridgeway_gym-d.png)}
+#sponsors #bridgeway_gym a:hover,#sponsors #bridgeway_gym a:active{background-image:url(../images/sponsors/l_m-bridgeway_gym-h.png)}
+#sponsors #danny_coyles a:link,#sponsors #danny_coyles a:visited{background-image:url(../images/sponsors/m_s-danny_coyles-d.png)}
+#sponsors #danny_coyles a:hover,#sponsors #danny_coyles a:active{background-image:url(../images/sponsors/m_s-danny_coyles-h.png)}
+#sponsors #poggio a:link,#sponsors #poggio a:visited{background-image:url(../images/sponsors/m_s-poggio-d.png)}
+#sponsors #poggio a:hover,#sponsors #poggio a:active{background-image:url(../images/sponsors/m_s-poggio-h.png)}
+#sponsors #spark_pr a:link,#sponsors #spark_pr a:visited{background-image:url(../images/sponsors/m_s-spark_pr-d.png)}
+#sponsors #spark_pr a:hover,#sponsors #spark_pr a:active{background-image:url(../images/sponsors/m_s-spark_pr-h.png)}
+#sponsors #treemasters a:link,#sponsors #treemasters a:visited{background-image:url(../images/sponsors/m_s-treemasters-d.png)}
+#sponsors #treemasters a:hover,#sponsors #treemasters a:active{background-image:url(../images/sponsors/m_s-treemasters-h.png)}
+#sponsors #velo_sf a:link,#sponsors #velo_sf a:visited{background-image:url(../images/sponsors/m_s-velo_sf-d.png)}
+#sponsors #velo_sf a:hover,#sponsors #velo_sf a:active{background-image:url(../images/sponsors/m_s-velo_sf-h.png)}
+#sponsors #mikes_bikes a:link,#sponsors #mikes_bikes a:visited{background-image:url(../images/sponsors/s-mikes_bikes-d.png)}
+#sponsors #mikes_bikes a:hover,#sponsors #mikes_bikes a:active{background-image:url(../images/sponsors/s-mikes_bikes-h.png)}
+#sponsors #powerbar a:link,#sponsors #powerbar a:visited{background-image:url(../images/sponsors/s-powerbar-d.png)}
+#sponsors #powerbar a:hover,#sponsors #powerbar a:active{background-image:url(../images/sponsors/s-powerbar-h.png)}
+#sponsors #rudy_project a:link,#sponsors #rudy_project a:visited{background-image:url(../images/sponsors/s-rudy_project-d.png)}
+#sponsors #rudy_project a:hover,#sponsors #rudy_project a:active{background-image:url(../images/sponsors/s-rudy_project-h.png)}
+#sponsors #specialized a:link,#sponsors #specialized a:visited{background-image:url(../images/sponsors/s-specialized-d.png)}
+#sponsors #specialized a:hover,#sponsors #specialized a:active{background-image:url(../images/sponsors/s-specialized-h.png)}
+#sponsors #lithium a:link,#sponsors #lithium a:visited{background-image:url(../images/sponsors/l-lithium-d.png)}
+#sponsors #lithium a:hover,#sponsors #lithium a:active{background-image:url(../images/sponsors/l-lithium-h.png)}
+#sponsors #j_body_works a:link,#sponsors #j_body_works a:visited{background-image:url(../images/sponsors/l_m-j_body_works-d.png)}
+#sponsors #j_body_works a:hover,#sponsors #j_body_works a:active{background-image:url(../images/sponsors/l_m-j_body_works-h.png)}
+#sponsors #happy_hound a:link,#sponsors #happy_hound a:visited{background-image:url(../images/sponsors/m_s-happy_hound-d.png)}
+#sponsors #happy_hound a:hover,#sponsors #happy_hound a:active{background-image:url(../images/sponsors/m_s-happy_hound-h.png)}
+#sponsors #roll_san_francisco a:link,#sponsors #roll_san_francisco a:visited{background-image:url(../images/sponsors/s_s-roll_san_francisco-d.png)}
+#sponsors #roll_san_francisco a:hover,#sponsors #roll_san_francisco a:active{background-image:url(../images/sponsors/s_s-roll_san_francisco-h.png)}
+#sponsors #threed_bikefit a:link,#sponsors #threed_bikefit a:visited{background-image:url(../images/sponsors/s_s-3D_bikefit-d.png)}
+#sponsors #threed_bikefit a:hover,#sponsors #threed_bikefit a:active{background-image:url(../images/sponsors/s_s-3D_bikefit-h.png)}
+#sponsors #synchro a:link,#sponsors #synchro a:visited{background-image:url(../images/sponsors/s_s-synchro-d.png)}
+#sponsors #synchro a:hover,#sponsors #synchro a:active{background-image:url(../images/sponsors/s_s-synchro-h.png)}
+#sponsors #osmo a:link,#sponsors #osmo a:visited{background-image:url(../images/sponsors/s_s-osmo-d.png)}
+#sponsors #osmo a:hover,#sponsors #osmo a:active{background-image:url(../images/sponsors/s_s-osmo-h.png)}
+#sponsors .ad{height:72px;width:238px;margin:1px}
+#sponsors a,#sponsors a:link,#sponsors a:hover,#sponsors a:active,#sponsors a:visited{color:#ccc;display:block;height:72px;text-align:center;width:238px}
+#sponsors a:hover{background:#d1d1d1}
+#sponsors .small,#sponsors .small a{width:178px}
+#sponsors .mediumlarge,#sponsors .mediumlarge a{height:145px}
+#sponsors .large,#sponsors .large a{height:145px;width:478px}
+#footer{background-image:url(../images/copyright.png);background-position:16px 16px;background-repeat:no-repeat;clear:both;display:block;height:15px;overflow:auto;text-indent:-9999px;width:379px;padding:16px}
+#footer ul,#footer li{float:left;list-style:none}
+#about_page #navigation,#contact_page #navigation,#home_page #navigation,#home_page #main_image,#contact_page #main_image{margin:0}
+#home_page #main_content,#team_page #main_content,#contact_page #main_content{padding:0}
+#home_page .twitter h2,#contact_page .twitter h2{margin-bottom:0}
+#home_page .twtr-hd,#home_page .twtr-ft a img,#contact_page .twtr-hd,#contact_page .twtr-ft a img{display:none}

@@ -1,0 +1,17 @@
+AddType x-mapp-php4 .html .htm
+AddType x-mapp-php5 .php
+
+RewriteEngine on
+RewriteRule ^srch/([^/\.]+)/?$ index.php?srch=$1 [L]
+
+ErrorDocument 400 http://www.flowerjoiner.com/assets/error/400.php
+ErrorDocument 403 http://www.flowerjoiner.com/assets/error/403.php
+ErrorDocument 404 http://www.flowerjoiner.com/assets/error/404.php
+ErrorDocument 500 http://www.flowerjoiner.com/assets/error/500.php
+
+AddType application/vnd.ms-fontobject .eot
+AddType font/ttf .ttf
+AddType font/otf .otf
+AddType application/font-ttf              ttf;
+AddType application/font-otf              otf;
+AddType application/x-font-woff .woff

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>jQuery CSVToTable</title>
+
+	<link rel="stylesheet" href="css/csvtable.css" type="text/css" />
+
+	<script type="text/javascript" src="js/jquery-1.4.2.min.js"></script>
+	<script type="text/javascript" src="js/jquery.csvToTable.js"></script>
+	<script type="text/javascript" src="js/jquery.tablesorter.dev.js"></script>
+	
+	<script>
+	$(function() {
+		$.get('nest.csv', function(data) {
+			$('#CSVSource').html('<pre>' + data + '</pre>');
+		});
+		$('#CSVTable').CSVToTable('nest.csv', { loadingImage: 'images/loading.gif', startLine: 0 });
+	});
+	</script>
+</head>
+<body>
+
+This is a test of the CSVToTable plugin.
+
+<br><br>
+CSV To Table:<br>
+<div id="CSVTable">
+</div>
+
+<br><br>
+Original CSV (comma separated values) source of <a href="test.csv">test.csv</a>:<br>
+<div id="CSVSource" class="source">
+</div>
+
+</body>
+</html>

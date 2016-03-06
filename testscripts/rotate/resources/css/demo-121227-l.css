@@ -1,0 +1,14 @@
+#demo_graphic{position:relative}
+#searchForm{background-image:-webkit-gradient(linear,0 0,0 100%,from(#fff),to(#999));border:0 none;border-radius:2px;box-shadow:0 0 35px #333;left:245px;position:absolute;top:25px;width:245px;z-index:10}
+.pulse{position:absolute}
+#pulse_searchForm{z-index:9}
+#process_arrow{z-index:8}
+#db_graphic{left:550px;position:absolute;top:250px;z-index:6}
+#process_arrow-2{z-index:4}
+#samples{height:350px;left:25px;position:absolute;top:340px;width:350px;z-index:2}
+.arrow{display:none;position:absolute}
+#samples .nav{margin-bottom:0}
+#samples .tab-content{background:#fff;color:#333;height:300px;overflow-y:auto}
+.firstpath{fill:#81c341;stroke:#000;stroke-width:1}
+.secondpath{fill:#81c341;stroke:#000;stroke-width:1}
+.step_animation{background:#fff}

@@ -1,0 +1,23 @@
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-US" lang="en-US">
+    <head>
+
+        <script type="text/javascript" src="js/jquery-1.7.1.min.js"></script>
+        <script type="text/javascript" src="js/jquery.dimensions.js"></script>
+        <script type="text/javascript" src="js/jquery.tools.min.js"></script>
+        <script type="text/javascript">
+		$(document).ready(function(){
+			$('.activate').tooltip({delay : '60', position : 'bottom right', relative : 'true'});
+		});
+		</script>
+
+		<style>
+			.tooltip {
+				display: none;
+			}
+		</style>
+</head>
+    <body>
+	<div class="activate">Show</div>
+	<div class="tooltip">asdf</div>
+    </body>
+</html>

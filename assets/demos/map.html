@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>MapTest</title>
+    <link href="assets/css/jquery-jvectormap.css" rel="stylesheet" type="text/css">
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/jquery-jvectormap.min.js"></script>
+    <script src="assets/js/jquery-jvectormap-us-aea-en.js"></script>
+</head>
+<body>
+    <div id="map" height="480" width="720" style="height:480px;width:720px;"></div>
+    <footer>
+        <nav>
+        </nav>
+        <div id="copyright">
+            <span>&copy; Copyright 2013 Flowerjoiner All Rights Reserved</span>
+        </div>
+    </footer>
+    <script>
+    $(document).ready(function(){
+        $('#map').vectorMap({map: 'us_aea_en'});
+
+		$('#map').vectorMap({
+		  map: 'us_aea_en',
+		  series: {
+		    regions: [{
+		      values: gdpData,
+		      scale: ['#C8EEFF', '#0071A4'],
+		      normalizeFunction: 'polynomial'
+		    }]
+		  },
+		  onRegionLabelShow: function(e, el, code){
+		    el.html(el.html()+' (GDP - '+gdpData[code]+')');
+		  }
+		});
+    })
+    </script>
+</body>
+</html>

@@ -1,0 +1,89 @@
+body
+{
+	background:			#fff;
+	font:				normal 11px Tahoma, Verdana, Arial, Sans-Serif;
+	color:				#333;
+}
+
+a,
+a:link,
+a:active,
+a:visited
+{
+	color:				#666;
+	text-decoration:	none;
+}
+
+a:hover
+{
+	color:				#999;
+	text-decoration:	underline;
+}
+
+#outerwrapper
+{
+	margin:				0 auto;
+	width:				960px;
+}
+
+#header
+{
+	height:				auto;
+	margin:				10px 0;
+	overflow:			auto;
+}
+
+#header #home,
+#header #home:link,
+#header #home:hover,
+#header #home:active,
+#header #home:visited
+{
+	background:			transparent url('../images/logo_template.png') no-repeat scroll 0 0;
+	color:				#333;
+	display:			block;
+	float:				left;
+	font-size:			30px;
+	height:				100px;
+	line-height:		100px;
+	text-decoration:	none;
+	text-indent:		100px;
+	text-transform:		lowercase;
+}
+
+#header ul
+{
+	float:				right;
+	list-style:			none;
+}
+
+#header li
+{
+	list-style:			none;
+}
+
+#content
+{
+	border:				1px solid #ccc;
+	clear:				both;
+	padding:			10px;
+
+		-moz-border-radius:	2px 2px 2px 2px;
+}
+
+#footer
+{
+	clear:				both;
+	height:				auto;
+	margin:				10px 0;
+	overflow:			auto;
+	padding:			10px;
+}
+
+#footer ul,
+#footer li
+{
+	float:				left;
+	list-style:			none;
+	margin:				0 auto;
+}

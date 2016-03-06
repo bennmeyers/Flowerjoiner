@@ -1,0 +1,123 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Centralized Committee Database (CCD)</title>
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.js"></script>
+    <script type="text/javascript" src="js/shared.js"></script>
+    <link rel="stylesheet" type="text/css" media="screen" href="http://yui.yahooapis.com/2.8.2r1/build/reset/reset-min.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" media="all" href="css/bootstrap-responsive.min.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="css/main.css" />
+</head>
+<body><div id="homepage">
+<div class="navbar navbar-fixed-top">
+    <header class="navbar-inner">
+        <div class="container">
+            <ul class="pull-left nav nav-pills">
+                <li><a href="http://cedars-sinai.edu/">Cedar-Sinai<span class="hidden-phone"> Hospital</span></a></li>
+                <li class="active"><a href="index.html">CCD</a></li>
+            </ul>
+            <div class="pull-right btn-group">
+                <a href="#" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+                    User X
+                    <span class="caret"></span>
+                </a>
+                <ul class="dropdown-menu">
+                    <li><a href="#prefs">User Preferences</a></li>
+                    <li><a href="#logoff">Logoff</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+</div>
+    <div class="container">
+        <div class="row-fluid">
+            <div class="span12">
+                <ul class="breadcrumb">
+                    <li>Home</li>
+                </ul>
+            </div>
+        </div>
+        <div class="row-fluid">
+                <div class="span3">
+                    <div class="accordion-heading">
+                        <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseFour">
+                            Attendance
+                        </a>
+                   </div>
+                   <div id="collapseFour" class="accordion-body collapse in">
+                       <div class="accordion-inner">
+                           <ul class="unstyled">
+                               <li><a href="attendance.html" class="btn btn-primary btn-block">Member Attendance</a></li>
+                           </ul>
+                       </div>
+                    </div><!-- #collapseFour -->
+                </div><!-- .span3 -->
+                <div class="span3">
+                    <div class="accordion-heading">
+                        <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
+                            Master Edit
+                        </a>
+                    </div>
+                    <div id="collapseOne" class="accordion-body collapse in">
+                        <div class="accordion-inner">
+                            <ul class="unstyled">
+                                <li><a href="committee.html" class="btn btn-info btn-block">Committee List</a></li>
+                                <li><a href="list-members.html" class="btn btn-info btn-block">Member List</a></li>
+                                <li><a href="sign_in-order.html" class="btn btn-action btn-block disabled">Sign-in Sheet Sort Order</a></li>
+                                <li><a href="category.html" class="btn btn-admin btn-block">Category list</a></li>
+                                <li><a href="role.html" class="btn btn-admin btn-block">Role list</a></li>
+                                <li><a href="titles.html" class="btn btn-admin btn-block disabled">Title List</a></li>
+                                <li><a href="types-committee.html" class="btn btn-admin btn-block disabled">Committee Types</a></li>
+                            </ul>
+                        </div>
+                    </div><!-- #collapseOne -->
+                </div><!-- .span3 -->
+                <div class="span3">
+                    <div class="accordion-heading">
+                        <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">
+                            Reports
+                        </a>
+                    </div>
+                    <div id="collapseTwo" class="accordion-body collapse in">
+                        <div class="accordion-inner">
+                            <ul class="unstyled">
+                                <li><a href="report-attendance.html" class="btn btn-info btn-block disabled">Attendance Reports</a></li>
+                                <li><a href="report-committee.html" class="btn btn-info btn-block disabled">Committe Roster for Kryuus</a></li>
+                            </ul>
+                        </div>
+                    </div><!-- #collapseTwo -->
+                </div><!-- .span3-->
+                <div class="span3">
+                    <div class="accordion-heading">
+                        <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseThree">
+                            Roster
+                        </a>
+                    </div>
+                    <div id="collapseThree" class="accordion-body collapse in">
+                        <div class="accordion-inner">
+                            <ul class="unstyled">
+                                <li><a href="committee-roster.html" class="btn btn-action btn-block disabled">Committee Roster</a></li>
+                            </ul>
+                        </div>
+                    </div><!-- #collapseThree -->
+                </div><!-- .span3 -->
+        </div><!-- #mainContent -->
+
+    </div><!-- .container -->
+<div class="navbar navbar-fixed-bottom">
+    <footer class="navbar-inner">
+        <div class="container">
+            <ul>
+                 <li>powered by EZHealthTech | copyright &copy; 2013</li>
+            </ul>
+        </div>
+    </footer>
+</div>
+</div>
+</body>
+</html>
