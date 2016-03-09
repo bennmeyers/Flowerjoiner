@@ -1,14 +1,70 @@
-<?php include("includes/global/header.php"); ?>
-<div class="define" id="page-homepage">
-  <?php include("includes/content/header.php"); ?>
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+    <title></title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='http://fonts.googleapis.com/css?family=Quicksand:300,400,700' rel='stylesheet' type='text/css'>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" type="text/css" media="screen">
+</head>
+<body>
+<div id="homepage" class="container">
   <div id="content">
+    <center>
+      <h1>Under Maintenance</h1>
+    </center>
     <div id="main_content">
-      <a href="about.html">About</a>
-      <a href="portfolio.html">Portfolio</a>
+      <div class="row">
+        <h2>Most Recent Work</h2>
+        <div class="col-md-6">
+          <a href="//map.norsecorp.com" target="_blank"><img src="/assets/img/samples/full/norsceorp_v2.jpg" alt="Norse Map"></a>
+        <br>
+        <caption><b>Norse Map</b> - I was used to inspire CSS methods for this revision of the norse map. I also spent some time minimizing the code for the SVG <small>below</small>.</caption></div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-12">
+<svg version="1.1" id="controls" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0" y="0"
+   viewBox="50 50 200 200" style="enable-background:new 50 50 200 200;" xml:space="preserve"  height="200px" width="200px">
+<g id="backgrounds">
+  <path id="options-bg" ui-sref="explore" fill="#7ED0E0" d="M86.7,152.7H50c0.6,24.2,9.8,46.2,24.7,63.2l26-26C92.5,179.6,87.3,166.7,86.7,152.7z"/>
+  <path id="home-bg" ui-sref="tables" fill="#7ED0E0" d="M86.7,147.3c0.6-14.1,5.7-26.9,14-37.2l-26-26c-14.9,17-24.1,39-24.7,63.2H86.7z"/>
+  <path id="why-bg" ui-sref="helps" fill="#7ED0E0" d="M213.3,152.7c-0.6,14.1-5.7,26.9-14,37.2l26,26c14.9-17,24.1-39,24.7-63.2H213.3z"/>
+  <path id="info-bg" ui-sref="platform" fill="#7ED0E0" d="M199.3,110.2c8.3,10.2,13.4,23.1,14,37.2H250c-0.6-24.2-9.8-46.2-24.7-63.2L199.3,110.2z"/>
+  <path id="zoom_out-bg" ng-click="CC.zoomOut()" fill="#7ED0E0" d="M189.8,199.3c-10.9,8.8-24.7,14.1-39.8,14.1s-28.9-5.3-39.8-14.1l-26,26
+    c17.6,15.4,40.6,24.7,65.9,24.7s48.3-9.3,65.9-24.7L189.8,199.3z"/>
+  <path id="zoom_in-bg" ng-click="CC.zoomIn()" fill="#7ED0E0" d="M110.2,100.7c10.9-8.8,24.7-14.1,39.8-14.1s28.9,5.3,39.8,14.1l26-26
+    C198.3,59.3,175.2,50,150,50s-48.3,9.3-65.9,24.7L110.2,100.7z"/>
+  <circle id="center-bg" fill="#7ED0E0" cx="150.8" cy="149.7" r="50"/>
+</g>
+<polygon id="play-icon" ng-click="CC.toggleStream()" points="130.6,119.9 182.3,149.7 130.6,179.6 "/>
+<circle id="options-circle" ng-click="CC.toggleStream()" ui-sref="explore" fill="none" stroke="#000000" stroke-width="1" cx="73" cy="179.5" r="12.9"/>
+<g id="options-icon" ui-sref="explore">
+  <rect id="options-l3" x="69.4" y="170.1" fill="none" stroke="#000000" stroke-width="1" width="7.1" height="15.8"/>
+  <rect id="options-l2" x="67.6" y="172.8" fill="#7FD1E0" stroke="#000000" stroke-width="1" width="10.7" height="13.8"/>
+  <rect id="options-l1" x="65.6" y="175.8" width="14.9" height="11.3"/>
+</g>
+<circle id="home-circle" ui-sref="tables" fill="none" stroke="#000000" stroke-width="1" cx="73" cy="124.5" r="12.9"/>
+<polygon id="home-icon" ui-sref="tables" points="73.1,117.4 65.6,124.9 67.6,124.9 67.6,132.8 71.9,132.8 71.9,128.8 74.2,128.8 74.2,132.8 
+  78.4,132.8 78.4,124.9 80.5,124.9 "/>
+<circle id="why-circle" ui-sref="helps" fill="none" stroke="#000000" stroke-width="1" cx="226" cy="178.2" r="12.9"/>
+<path id="why-icon" ui-sref="helps" d="M225,183.1c0-0.3,0-0.6,0-0.7c0-1,0.1-1.8,0.4-2.5c0.2-0.5,0.5-1.1,1-1.6c0.3-0.4,0.9-1,1.8-1.7
+  s1.4-1.4,1.7-1.8s0.4-0.9,0.4-1.5c0-1-0.4-1.8-1.1-2.5s-1.7-1.1-2.7-1.1c-1,0-1.9,0.3-2.6,1s-1.2,1.7-1.4,3.1l-2.5-0.3
+  c0.2-1.9,0.9-3.3,2-4.3s2.6-1.5,4.5-1.5c2,0,3.5,0.5,4.7,1.6s1.8,2.4,1.8,3.9c0,0.9-0.2,1.7-0.6,2.4s-1.2,1.6-2.4,2.7
+  c-0.8,0.7-1.3,1.2-1.6,1.6s-0.4,0.7-0.5,1.2s-0.2,1.1-0.2,2.1H225z M224.9,188v-2.8h2.8v2.8H224.9z"/>
+<circle id="info-circle" ui-sref="platform" fill="none" stroke="#000000" stroke-width="1" cx="226" cy="123.2" r="12.9"/>
+<path id="info-icon" ui-sref="platform" d="M228,128.8c0.2,0.1,0.4,0.3,0.4,0.4c0,0.3-0.4,1-1.2,1.9c-1.1,1.3-2.1,2-3,2c-0.7,0-1-0.4-1-1.3
+  c0-0.4,0.1-1.5,0.4-3.4l0.5-3.7l0.1-0.9l0.1-0.8c0-0.3,0.1-0.6,0.1-0.8c0-0.5-0.1-0.7-0.4-0.7c-0.7,0-1.5,0.8-2.3,2.3
+  c-0.2-0.2-0.3-0.3-0.3-0.5c0-0.6,0.5-1.3,1.5-2.2s1.8-1.4,2.5-1.4c0.7,0,1,0.5,1,1.4c0,0.2,0,0.6-0.1,1.1l-0.1,0.9
+  c0,0.1-0.1,0.4-0.2,1.1l-0.6,3.9l-0.1,0.9c-0.1,0.9-0.2,1.4-0.2,1.7c0,0.4,0.1,0.6,0.3,0.6C226.4,131.4,227.2,130.5,228,128.8z
+   M225.2,118l1.1-2.8c1-0.4,1.9-1,2.5-1.7c0.1,0.1,0.1,0.3,0.1,0.4C229,115,227.8,116.4,225.2,118z"/>
+<path id="zoom_in-icon" ng-click="CC.zoomIn()" d="M148.1,79.9v-9h-9v-3.8h9v-9h3.8v9h9v3.8h-9v9H148.1z"/>
+<path id="zoom_out-icon" ng-click="CC.zoomOut()" d="M143.8,233.4v-4.1h12.4v4.1H143.8z"/>
+</svg>
+        </div>
+      </div>
     </div><!-- #main_content -->
-    <div class="clearB"></div>
-  </div><!-- #content -->
-  <?php include("includes/content/footer.php"); ?>
-</div><!-- #homepage -->
-
-<?php include("includes/global/footer.php"); ?>
+        </div><!-- #content -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script></div><!-- #homepage -->
+</body>
+</html>
