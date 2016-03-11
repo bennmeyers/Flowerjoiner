@@ -1,6 +1,3 @@
-AddType x-mapp-php4 .html .htm
-AddType x-mapp-php5 .php
-
 RewriteEngine on
 RewriteRule ^srch/([^/\.]+)/?$ index.php?srch=$1 [L]
 
