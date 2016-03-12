@@ -12,9 +12,9 @@ figcaption {
 p#intro {
   margin-bottom: 15px;
 }
-.col-sm-4.first {
+.first {
   padding-left:0;
 }
-.col-sm-4.last {
+.last {
   padding-right:0;
 }
