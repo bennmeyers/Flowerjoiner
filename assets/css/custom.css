@@ -9,3 +9,12 @@ body{
 figcaption {
   margin-bottom: 20px;
 }
+p#intro {
+  margin-bottom: 15px;
+}
+.col-sm-4.first {
+  padding-left:0;
+}
+.col-sm-4.last {
+  padding-right:0;
+}
