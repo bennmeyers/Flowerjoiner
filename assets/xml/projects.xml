@@ -6,7 +6,7 @@
 			<website>Norse Corporation v5</website>
 			<section>Site</section>
 			<link></link>
-			<description>A highly security-minded company concentrating on internet security. I made CSS, HTML, modified the Javascript and used the, for this design I  took the wordpress theme provided to us and made suggestions and countless changes.</description>
+			<description>A highly security-minded company focused on internet security. I made CSS, HTML, modified the Javascript and WordPress theme.</description>
 			<thumbnail>norse_v5</thumbnail>
 			<demolink></demolink>
 		</project>
@@ -30,31 +30,31 @@
 			<website>Norse Map v3</website>
 			<section>Map Site</section>
 			<link></link>
-			<description>I made CSS, HTML, modified the Javascript and used the jQuery library.</description>
-			<thumbnail>norsecorp_v2</thumbnail>
+			<description>I made CSS, HTML, modified the Javascript and used the jQuery library. The map was an ongoing and evolving project.</description>
+			<thumbnail>norsemap_v2</thumbnail>
 			<demolink></demolink>
 		</project>
 		<project>
 			<website>Norse Map v2</website>
 			<section>Map Site</section>
 			<link></link>
-			<description>I made CSS, HTML, modified the Javascript and used the jQuery library.</description>
-			<thumbnail>norsecorp</thumbnail>
+			<description>I made CSS, HTML, modified the Javascript and used the jQuery library. The initial map was not fit for production.</description>
+			<thumbnail>norsemap</thumbnail>
 			<demolink></demolink>
 		</project>
 		<project>
 			<website>GetInsured.com</website>
 			<section>Site</section>
 			<link>http://www.getinsured.com/</link>
-			<description>is a site based on the UX 2014 health initiative. I made CSS, HTML, and used  the jQuery library and Bootstrap to build initial designs in UI.</description>
+			<description>is a site based on the UX 2014 health initiative. I made CSS, HTML, and used  the jQuery library and Bootstrap to build initial design UIs.</description>
 			<thumbnail>getinsured</thumbnail>
 			<demolink></demolink>
 		</project>
 		<project>
 			<website>ArchimedesModel.com</website>
-			<section>Site</section>
+			<section></section>
 			<link>http://www.archimedesmodel.com/</link>
-			<description>is a site that provided biometrics for educational institutions and pharmaceutical companies. I made CSS, HTML, and used the jQuery library.</description>
+			<description>is a site that provided biometrics for educational institutions and pharmaceutical companies. </description>
 			<thumbnail>archimedes</thumbnail>
 			<demolink></demolink>
 		</project>
@@ -126,7 +126,7 @@
 			<website>Minted.com</website>
 			<section>Holiday Home 2008</section>
 			<link>http://www.minted.com/</link>
-			<description>is a site where I was provided a mock home page, from which I made the CSS and HTML. I used grids and personal techniques to build the pages.</description>
+			<description>is a site where I was provided a mock home page, from which I made the CSS and HTML. I used grids to build the pages.</description>
 			<thumbnail>mintedHome_08-10</thumbnail>
 			<demolink></demolink>
 		</project>
@@ -150,7 +150,7 @@
 			<website>Vimo.com</website>
 			<section>Dr Reports</section>
 			<link>http://www.vimo.com/</link>
-			<description>are in a flow of CSS, HTML, Javascript and SMARTY templates to provide information. To get to it go through the Dr. Details and ask for a report.</description>
+			<description>are in a flow of CSS, HTML, Javascript and SMARTY templates to provide information.</description>
 			<thumbnail>vimo_DrReport_08-02</thumbnail>
 			<demolink></demolink>
 		</project>
@@ -158,7 +158,7 @@
 			<website>Vimo.com</website>
 			<section>Carrier and Plan Profiles</section>
 			<link>http://www.vimo.com/</link>
-			<description>is designed to give the customer profiles on the different Carriers and Plans. The pages are SMARTY templates to insert CMS data.</description>
+			<description>is designed to give the customer details on Carriers and Plans. The pages are SMARTY templates to insert CMS data.</description>
 			<thumbnail>vimo_carrier_08-03</thumbnail>
 			<demolink></demolink>
 		</project>
