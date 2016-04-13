@@ -27,10 +27,11 @@
     <div id="main_content">
       <div class="row professional">
         <h2>process</h2>
+        <p>This is the process I created when I was working with git</p>
 <pre><code>(step 0: setup)
-$ git clone git@64.19.78.12:marketing/norse-corp-com.git
+$ git clone git@&lt;server&gt;:&lt;project&gt;.git
 
-(step 1) (edit locally)
+(step 1: edit locally)
 $ cd &lt;local working dir&gt;
 ---- edit files ---- (now updates are local)
 [$ git add &lt;file&gt;]
@@ -38,23 +39,23 @@ $ cd &lt;local working dir&gt;
 $ git commit -am "Refs #0000 - Description"
 $ git push
 
-(step 2) (push to dev)
-$ ssh kajana.norse-corp.com with pass
-$ cd dev.norse-corp.com
+(step 2: push to dev)
+$ ssh &lt;server&gt;.com with pass
+$ cd dev.&lt;host&gt;.com
 [$ pwd (to make sure we're in the right dir)]
-$ git pull (now updates are on dev: http://www.norse-corp.com/)
+$ git pull (now updates are on dev: http://dev.&lt;host&gt;.com/)
 (check out on dev, make corrections by following directions from step 1)
 
-(step 3) (go live on prod)
+(step 3: go live on prod)
 $ cd &lt;local working dir&gt;
 $ git checkout master
 $ git merge origin/dev
 $ git push
 $ git checkout dev
-$ ssh norsecorp@norse-corp.com with pass
-$ cd norse-corp.com
+$ ssh .com with pass
+$ cd &lt;host&gt;
 [$ pwd (to make sure we're in the right dir)]
-$ git pull (now updates are on live: http://www.norse-corp.com/)
+$ git pull (now updates are on live: http://www.&lt;host&gt;.com/)
 ---- you will be prompted to set a message: it should JUST be "Refs #0000" ----
 
                       --------------------------------------------
@@ -74,8 +75,8 @@ create a new branch for dev2:
 (local) git checkout -b &lt;branch&gt;
 (local) git push -f origin &lt;branch&gt; //create a new branch on the server
 (local) git branch -u origin/&lt;branch&gt;
-ssh kajana.norse-corp.com with pass
-$ cd dev2.norse-corp.com
+ssh &lt;server&gt; with pass
+$ cd dev2.&lt;host&gt;.com
 $ git checkout &lt;branch&gt;</code></pre>
       </div><!-- .professional -->
     </div><!-- #main_content -->
