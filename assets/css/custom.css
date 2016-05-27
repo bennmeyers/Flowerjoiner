@@ -1,5 +1,28 @@
-body{
+body {
+  color:#727E9C;
   padding-top: 61px;
+}
+.navbar-default {
+  background-color: #F3F7ED;
+  border-bottom: 0;
+}
+.navbar-default .navbar-nav>li>a,
+.navbar-default .navbar-nav>li>a:hover,
+a,
+a:hover {
+  color:#97BAD9;
+}
+.navbar-default .navbar-nav>li>a:hover,
+a:hover {
+  color:#C3DAEB;
+  text-decoration:underline;
+}
+body * small {
+  color: #97BAD9;
+}
+.navbar-brand {
+  line-height: 40px;
+  padding: 5px;
 }
 .professional .image {
   display: block;
