@@ -6,7 +6,7 @@
 			<website>Norse Corporation v5</website>
 			<section>Site</section>
 			<link></link>
-			<description>A company focused on internet security. I made CSS, HTML, Javascript and WordPress theme.</description>
+			<description>Norse is focused on internet security. I made CSS, HTML, Javascript and a secure WordPress site.</description>
 			<thumbnail>norse_v5</thumbnail>
 			<demolink></demolink>
 		</project>
@@ -30,7 +30,7 @@
 			<website>Norse Map v3</website>
 			<section>Map Site</section>
 			<link></link>
-			<description>I made CSS, HTML, modified the Javascript and used the jQuery library. The map was an ongoing and evolving project.</description>
+			<description>I made CSS, HTML, modified the Javascript and used the jQuery and Angular JS libraries. The map was an ongoing and evolving project.</description>
 			<thumbnail>norsemap_v2</thumbnail>
 			<demolink></demolink>
 		</project>
@@ -46,15 +46,15 @@
 			<website>GetInsured.com</website>
 			<section>Site</section>
 			<link>http://www.getinsured.com/</link>
-			<description>is a site based on the UX 2014 health initiative. I made CSS, HTML, and used  the jQuery library and Bootstrap to build initial design UIs.</description>
+			<description>is a site based on the UX 2014 health initiative. I made CSS, HTML, and used the jQuery library and Bootstrap to build initial design UIs.</description>
 			<thumbnail>getinsured</thumbnail>
 			<demolink></demolink>
 		</project>
 		<project>
 			<website>ArchimedesModel.com</website>
-			<section></section>
+			<section>Internal Projects</section>
 			<link>http://www.archimedesmodel.com/</link>
-			<description>is a site that provided biometrics for educational institutions and pharmaceutical companies. </description>
+			<description>A company researching biometrics for educational institutions and pharmaceutical companies - funded by Kaiser.</description>
 			<thumbnail>archimedes</thumbnail>
 			<demolink></demolink>
 		</project>
