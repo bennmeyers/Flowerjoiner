@@ -55,3 +55,20 @@ footer .col-md-12 {
   margin-left:-15px;
   margin-right:-15px;
 }
+
+@media (max-width: 768px) {
+  header{
+    padding: 15px;
+  }
+  .navbar-header {
+    clear: both;
+    float: none;
+  }
+  .col-sm-4 {
+    padding: 0;
+  }
+  #content {
+    margin-top: 176px;
+    padding: 15px;
+  }
+}
