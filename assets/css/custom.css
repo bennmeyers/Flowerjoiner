@@ -51,6 +51,9 @@ p#intro {
 .last {
   padding-right:0;
 }
+#sidebar {
+  margin-bottom: 30px;
+}
 footer .col-md-12 {
   margin-left:-15px;
   margin-right:-15px;
@@ -64,7 +67,8 @@ footer .col-md-12 {
     clear: both;
     float: none;
   }
-  .col-sm-4 {
+  .col-sm-4,
+  .col-md-6 {
     padding: 0;
   }
   #content {
