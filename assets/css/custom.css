@@ -2,6 +2,12 @@ body {
   color:#727E9C;
   padding-top: 61px;
 }
+body{
+  background-color:#fff;
+  font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size:16px;
+  line-height:1.428571429;
+}
 .navbar-default {
   background-color: #F3F7ED;
   border-bottom: 0;
