@@ -62,7 +62,7 @@
 			<website>SerenaAndLily.com</website>
 			<section>Customizer</section>
 			<link>http://www.serenaandlily.com/</link>
-			<description>is a functional area. I made the CSS, HTML, and used the jQuery library. I also helped to design the functionality and look.</description>
+			<description>is a functional area. I made the CSS, HTML, and used jQuery. I also helped to design the functionality.</description>
 			<thumbnail>sl_1</thumbnail>
 			<demolink>demos/customizer.html</demolink>
 		</project>
@@ -86,7 +86,7 @@
 			<website>SerenaAndLily.com</website>
 			<section>Site</section>
 			<link>http://www.SerenaAndLily.com/</link>
-			<description>is redesigned to match the catalog. I took ideas from the design and transformed them into functional CSS, HTML and Javascript.</description>
+			<description>is redesigned to match the catalog. Ideas from the design were transformed by me into CSS, HTML and Javascript.</description>
 			<thumbnail>sl_2</thumbnail>
 			<demolink></demolink>
 		</project>
@@ -134,7 +134,7 @@
 			<website>Minted.com</website>
 			<section>Holiday Popover 2008</section>
 			<link>http://www.minted.com/</link>
-			<description>is designed as a new popover for the search results page. I made the HTML and CSS for it to match the design mock.</description>
+			<description>is designed as a new popover for the search results page. I made the HTML and CSS for it to match the mock.</description>
 			<thumbnail>mintedPopover_08-10</thumbnail>
 			<demolink></demolink>
 		</project>
@@ -150,7 +150,7 @@
 			<website>Vimo.com</website>
 			<section>Dr Reports</section>
 			<link>http://www.vimo.com/</link>
-			<description>are in a flow of CSS, HTML, Javascript and SMARTY templates to provide information.</description>
+			<description>are in a flow of CSS, HTML, Javascript and SMARTY templates to provide information to help find a matching doctor.</description>
 			<thumbnail>vimo_DrReport_08-02</thumbnail>
 			<demolink></demolink>
 		</project>
@@ -166,7 +166,7 @@
 			<website>Vimo.com</website>
 			<section>FAQ</section>
 			<link>http://www.vimo.com/</link>
-			<description>is designed with the intent of educating customers about what health care means and what is to be looked for in different health plans.</description>
+			<description>is designed with the intent of educating customers about what health care means and what is to be looked for in different health care insurance plans.</description>
 			<thumbnail>vimo_FAQ_08-03</thumbnail>
 			<demolink></demolink>
 		</project>
