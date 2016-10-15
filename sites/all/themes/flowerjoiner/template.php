@@ -144,8 +144,10 @@ if(theme_get_setting('headerimg')) {
     drupal_add_css(drupal_get_path('theme','flowerjoiner').'/_custom/headerimg/rotate.php', array('group' => CSS_THEME, 'every_page' => TRUE, 'weight' => 2, 'preprocess' => FALSE));
   }
 }
-  drupal_add_css(drupal_get_path('theme','flowerjoiner').'/css/style-fj.css', array('group' => CSS_THEME, 'every_page' => TRUE, 'weight' => 3));
   drupal_add_css(drupal_get_path('theme','flowerjoiner').'/css/themer.css', array('group' => CSS_THEME, 'every_page' => TRUE, 'weight' => 3));
+  drupal_add_css('https://fonts.googleapis.com/css?family=Lato:300,300italic,700', array('group' => CSS_THEME, 'every_page' => TRUE, 'weight' => -1, 'preprocess' => FALSE));
+  drupal_add_css('https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css', array('group' => CSS_THEME, 'every_page' => TRUE, 'weight' => -2, 'preprocess' => FALSE));
+  drupal_add_css(drupal_get_path('theme','flowerjoiner').'/css/custom.css', array('group' => CSS_THEME, 'every_page' => TRUE, 'weight' => 3));
 }
 
 

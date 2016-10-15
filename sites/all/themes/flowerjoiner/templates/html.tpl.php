@@ -11,9 +11,6 @@
   <meta name="robot" content="index,follow">
   <meta name="keywords" content=".NET, AJAX, Analytics, AngularJS, ASP, CSS, Drupal, Eclipse, Git, HTML, JavaScript, jQuery, KnockoutJS, MySQL, OS X, Perl, Photoshop, PHP, Python, SEO, XML, WordPress">
   <?php print $head ?>
-  <link href='https://fonts.googleapis.com/css?family=Lato:300,300italic,700' rel='stylesheet' type="text/css">
-  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" type="text/css" media="screen">
-  <link href="/assets/css/custom.css" rel="stylesheet" type="text/css" media="screen">
   <?php print $styles ?>
 </head>
 
