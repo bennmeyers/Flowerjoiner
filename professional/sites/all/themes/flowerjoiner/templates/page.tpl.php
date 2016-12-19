@@ -61,9 +61,6 @@
         <div class="<?php print resp_class(); ?>1-5"><?php if (theme_get_setting('social_links_display')): ?><div id="soclinks"><?php print social_links(); ?></div><?php endif; ?></div>
         <div class="<?php print resp_class(); ?>3-5"><?php if ($page['footer']): ?><?php print render ($page['footer']); ?><?php endif; ?></div>
         <div class="<?php print resp_class(); ?>1-5"></div>
-        <br>
-        <br>
-        <a href="http://main.nationalmssociety.org/site/TR?px=8643532&pg=personal&fr_id=27080&s_src=BF_emailbadge" target="new" title="Fundraising Status"><img style="border:0" src="http://bfapps1.boundlessfundraising.com/badge/nmss/display/8643532/27080/status.jpg" alt="Fundraising Status" /></a>
       </div>
     </div>
   </div>

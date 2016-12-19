@@ -1,0 +1,484 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fabrics>
+
+<fabric_item duplicate="true" fabric_itemkey="10">
+<sku>FABR-CH19</sku>
+<name>Air/Chocolate Diamond</name>
+<resolution>50</resolution>
+<link>http://www.serenaandlily.com/Fabric/Fabrics-Air-Chocolate-Diamond</link>
+<note/>
+</fabric_item>
+
+<fabric_item duplicate="true" fabric_itemkey="10">
+<sku>FABR-CH19</sku>
+<name>Air Chocolate Diamond</name>
+<resolution>50</resolution>
+<link>http://www.serenaandlily.com/Fabric/Fabrics-Air-Chocolate-Diamond</link>
+<note/>
+</fabric_item>
+
+<fabric_item>
+<sku>FABR-40-U2</sku>
+<name>Almond Basketweave</name>
+<resolution>120</resolution>
+<link>http://www.serenaandlily.com/Fabric/Fabrics-Almond-Basketweave</link>
+<note/>
+</fabric_item>
+	
+<fabric_item>
+<sku>FABR-33D</sku>
+<name>Aqua Cotton</name>
+<resolution>120</resolution>
+<link>http://www.serenaandlily.com/Fabric/Fabrics-Aqua-Cotton</link>
+<note/>
+</fabric_item>
+
+<fabric_item duplicate="true" fabric_itemkey="09">
+<sku>FABR-CH31</sku>
+<name>Aqua/Melon Mosaic</name>
+<resolution>190</resolution>
+<link>http://www.serenaandlily.com/Fabric/Fabrics-Aqua-Melon-Mosaic</link>
+<note/>
+</fabric_item>
+
+<fabric_item duplicate="true" fabric_itemkey="09">
+<sku>FABR-CH31</sku>
+<name>Aqua Melon Mosaic</name>
+<resolution>190</resolution>
+<link>http://www.serenaandlily.com/Fabric/Fabrics-Aqua-Melon-Mosaic</link>
+<note/>
+</fabric_item>
+
+<fabric_item duplicate="true" fabric_itemkey="08">
+<sku>FABR-CH30</sku>
+<name>Azure/Cornflower Mosaic</name>
+<resolution>190</resolution>
+<link>http://www.serenaandlily.com/Fabric/Fabrics-Azure-Cornflower-Mosaic</link>
+<note/>
+</fabric_item>
+
+<fabric_item duplicate="true" fabric_itemkey="08">
+<sku>FABR-CH30</sku>
+<name>Azure Cornflower Mosaic</name>
+<resolution>190</resolution>
+<link>http://www.serenaandlily.com/Fabric/Fabrics-Azure-Cornflower-Mosaic</link>
+<note/>
+</fabric_item>
+
+<fabric_item duplicate="true" fabric_itemkey="04">
+<sku>FABR-22</sku>
+<name>Blue Chambray</name>
+<resolution>120</resolution>
+<link>http://www.serenaandlily.com/Fabric/Fabrics-Blue-Chambray</link>
+<note/>
+</fabric_item>
+
+<fabric_item duplicate="true" fabric_itemkey="03">
+<sku>TRM-COLE1</sku>
+<name>Butterscotch Cotton (Kona?)</name>
+<resolution>120</resolution>
+<link>http://www.serenaandlily.com/Fabric/Fabrics-Air-Butterscotch-Kona</link>
+<note/>
+</fabric_item>
+
+<fabric_item duplicate="true" fabric_itemkey="03">
+<sku>TRM-COLE1</sku>
+<name>Butterscotch Cotton</name>
+<resolution>120</resolution>
+<link>http://www.serenaandlily.com/Fabric/Fabrics-Air-Butterscotch-Kona</link>
+<note/>
+</fabric_item>
+
+<fabric_item duplicate="true" fabric_itemkey="03">
+<sku>TRM-COLE1</sku>
+<name>Butterscotch Kona</name>
+<resolution>120</resolution>
+<link>http://www.serenaandlily.com/Fabric/Fabrics-Air-Butterscotch-Kona</link>
+<note/>
+</fabric_item>
+
+<fabric_item duplicate="true" fabric_itemkey="04">
+<sku>FABR-22</sku>
+<name>Chambray</name>
+<resolution>120</resolution>
+<link>http://www.serenaandlily.com/Fabric/Fabrics-Chambray-Chocolate-Beach-Stripe</link>
+<note>what is this?</note>
+</fabric_item>
+
+<fabric_item duplicate="true" fabric_itemkey="11">
+<sku>FABR-CH34-U</sku>
+<name>Chocolate Cotton</name>
+<resolution>120</resolution>
+<link>http://www.serenaandlily.com/Fabric/Fabrics-Chocolate-Cotton-Upholstery-Weight</link>
+<note/>
+</fabric_item>
+
+<fabric_item duplicate="true" fabric_itemkey="11">
+<sku>FABR-CH34-U</sku>
+<name>Chocolate Cotton Linen</name>
+<resolution>120</resolution>
+<link>http://www.serenaandlily.com/Fabric/Fabrics</link>
+<note/>
+</fabric_item>
+
+<fabric_item>
+<sku>FABR-CH20</sku>
+<name>Chocolate Star</name>
+<resolution>150</resolution>
+<link>http://www.serenaandlily.com/Fabric/Fabrics-Chocolate-Star</link>
+<note/>
+</fabric_item>
+
+<fabric_item>
+<sku>FABR-CH103</sku>
+<name>Citrus Pebble</name>
+<resolution>120</resolution>
+<link>http://www.serenaandlily.com/Fabric/Fabrics-Citrus-Pebble</link>
+<note/>
+</fabric_item>
+
+<fabric_item>
+<sku>CTST</sku>
+<name>Clay Ticking Stripe</name>
+<resolution>120</resolution>
+<link>http://www.serenaandlily.com/Fabric/Fabrics-Clay-Ticking-Stripe</link>
+<note/>
+</fabric_item>
+
+<fabric_item>
+<sku>FABR-CH112</sku>
+<name>Dove Damask</name>
+<resolution>100</resolution>
+<link>http://www.serenaandlily.com/Fabric/Fabrics-Dove-Damask</link>
+<note/>
+</fabric_item>
+
+<fabric_item duplicate="true" fabric_itemkey="06">
+<sku>FABR-41D</sku>
+<name>Flax Belgian Linen</name>
+<resolution>120</resolution>
+<link>http://www.serenaandlily.com/Fabric/Fabrics-Natural-Linen</link>
+<note/>
+</fabric_item>
+
+<fabric_item duplicate="true" fabric_itemkey="06">
+<sku>FABR-41D</sku>
+<name>Flax Linen</name>
+<resolution>120</resolution>
+<link>http://www.serenaandlily.com/Fabric/Fabrics-Natural-Linen</link>
+<note/>
+</fabric_item>
+
+<fabric_item>
+<sku>FABR-CH27</sku>
+<name>Goldenrod Cotton</name>
+<resolution>80</resolution>
+<link>http://www.serenaandlily.com/Fabric/Fabrics-Goldenrod-Cotton</link>
+<note/>
+</fabric_item>
+
+<fabric_item>
+<sku>FABR-CH3</sku>
+<name>Grass Trellis</name>
+<resolution>120</resolution>
+<link>http://www.serenaandlily.com/Fabric/Fabrics-Grass-Trellis</link>
+<note/>
+</fabric_item>
+
+<fabric_item>
+<sku>TRM-HZL1</sku>
+<name>Heather Cotton</name>
+<resolution>120</resolution>
+<link>http://www.serenaandlily.com/Fabric/Fabrics-Heather-Cotton</link>
+<note/>
+</fabric_item>
+
+<fabric_item duplicate="true" fabric_itemkey="01">
+<sku>FABR-22-U</sku>
+<name>Indigo Cotton Duck</name>
+<resolution>120</resolution>
+<link>http://www.serenaandlily.com/Fabric/Fabrics-Indigo-Cotton-Duck-Upholstery-Weight</link>
+<note/>
+</fabric_item>
+
+<fabric_item duplicate="true" fabric_itemkey="01">
+<sku>FABR-22-U</sku>
+<name>Indigo Duck</name>
+<resolution>120</resolution>
+<link>http://www.serenaandlily.com/Fabric/Fabrics-Indigo-Cotton-Duck-Upholstery-Weight</link>
+<note/>
+</fabric_item>
+
+<fabric_item>
+<sku>FABR-40-U</sku>
+<name>Khaki Twill</name>
+<resolution>120</resolution>
+<link>http://www.serenaandlily.com/Fabric/Fabrics-Khaki-Twill-Upholstery-Weight</link>
+<note/>
+</fabric_item>
+
+<fabric_item>
+<sku>FABR-CH52-U</sku>
+<name>Light Pink Basketweave</name>
+<resolution>280</resolution>
+<link>http://www.serenaandlily.com/Fabric/Fabrics-Light-Pink-Basketweave-Upholstery-Weight</link>
+<note/>
+</fabric_item>
+
+<fabric_item>
+<sku>FABR-34</sku>
+<name>Lime Linen</name>
+<resolution>120</resolution>
+<link>http://www.serenaandlily.com/Fabric/Fabrics-Lime-Linen</link>
+<note/>
+</fabric_item>
+
+<fabric_item>
+<sku>FABR-CH101</sku>
+<name>Mocha Trellis</name>
+<resolution>120</resolution>
+<link>http://www.serenaandlily.com/Fabric/Fabrics-Mocha-Trellis</link>
+<note/>
+</fabric_item>
+
+<fabric_item>
+<sku>FABR-GL02</sku>
+<name>Mushroom Hemp</name>
+<resolution>160</resolution>
+<link>http://www.serenaandlily.com/Fabric/Fabrics-Mocha-Trellis</link>
+<note/>
+</fabric_item>
+
+<fabric_item duplicate="true" fabric_itemkey="06">
+<sku>FABR-41D</sku>
+<name>Natural Linen</name>
+<resolution>120</resolution>
+<link>http://www.serenaandlily.com/Fabric/Fabrics-Natural-Linen</link>
+<note/>
+</fabric_item>
+
+<fabric_item>
+<sku>FABR-CH107</sku>
+<name>Navy Basketweave</name>
+<resolution>120</resolution>
+<link>http://www.serenaandlily.com/Fabric/Fabrics-Navy-Basketweave</link>
+<note/>
+</fabric_item>
+
+<fabric_item>
+<sku>FABR-A106</sku>
+<name>Navy Medallion Scarf Print</name>
+<resolution>120</resolution>
+<link>http://www.serenaandlily.com/Fabric/Fabric-Navy-Medallion-Scarf-Print</link>
+<note/>
+</fabric_item>
+
+<fabric_item>
+<sku>FABR-CH35-U</sku>
+<name>Navy Twill</name>
+<resolution>120</resolution>
+<link>http://www.serenaandlily.com/Fabric/Fabrics-Navy-Twill-Upholstery-Weight</link>
+<note/>
+</fabric_item>
+
+<fabric_item>
+<sku>FABR-95</sku>
+<name>Pale Aqua Twill</name>
+<resolution>120</resolution>
+<link>http://www.serenaandlily.com/Fabric/Fabric-Pale-Aqua-Twill</link>
+<note/>
+</fabric_item>
+
+<fabric_item>
+<sku>FABR-CH51-U</sku>
+<name>Pale Lavender Twill</name>
+<resolution>120</resolution>
+<link>http://www.serenaandlily.com/Fabric/Fabrics-Pale-Lavendar-Twill</link>
+<note/>
+</fabric_item>
+
+<fabric_item>
+<sku>FABR-CH1</sku>
+<name>Pink Damask</name>
+<resolution>100</resolution>
+<link>http://www.serenaandlily.com/Fabric/Fabrics-Pink-Damask</link>
+<note/>
+</fabric_item>
+
+<fabric_item>
+<sku>FABR-12</sku>
+<name>Pink Pima</name>
+<resolution>120</resolution>
+<link>http://www.serenaandlily.com/Fabric/Fabrics-Pink-Pima</link>
+<note/>
+</fabric_item>
+
+<fabric_item>
+<sku>FABR-3-U</sku>
+<name>Pink Punch Basketweave</name>
+<resolution>120</resolution>
+<link>http://www.serenaandlily.com/Fabric/Fabrics-Pink-Punch-Basketweave-Upholstery-Weight</link>
+<note/>
+</fabric_item>
+
+<fabric_item duplicate="true" fabric_itemkey="05">
+<sku>FABR-80</sku>
+<name>Pink Punch Cotton (Ruby Pink)</name>
+<resolution>120</resolution>
+<link>http://www.serenaandlily.com/Fabric/Fabrics-Pink-Punch-Cotton</link>
+<note/>
+</fabric_item>
+
+<fabric_item>
+<sku>FABR-GL01</sku>
+<name>Putty Hemp</name>
+<resolution>160</resolution>
+<link>http://www.serenaandlily.com/Fabric/Fabrics-Putty-Hemp</link>
+<note/>
+</fabric_item>
+
+<fabric_item>
+<sku>FABR-CH40-U</sku>
+<name>Red Cotton</name>
+<resolution>120</resolution>
+<link>http://www.serenaandlily.com/Fabric/Fabrics-Red-Cotton</link>
+<note/>
+</fabric_item>
+
+<fabric_item>
+<sku>FABR-CH22</sku>
+<name>Red Star</name>
+<resolution>150</resolution>
+<link>http://www.serenaandlily.com/Fabric/Fabrics-Red-Star</link>
+<note/>
+</fabric_item>
+
+<fabric_item duplicate="true" fabric_itemkey="05">
+<sku>FABR-80</sku>
+<name>Ruby Pink</name>
+<resolution>120</resolution>
+<link/>
+<note>not found in Fabrics by the Yard on 09.16.2009</note>
+</fabric_item>
+
+<fabric_item duplicate="true" fabric_itemkey="07">
+<sku>FABR-CH29</sku>
+<name>Ruby/Sunshine Mosaic</name>
+<resolution>40</resolution>
+<link>http://www.serenaandlily.com/Fabric/Fabrics-Ruby-Sunshine-Mosaic</link>
+<note/>
+</fabric_item>
+
+<fabric_item duplicate="true" fabric_itemkey="07">
+<sku>FABR-CH29</sku>
+<name>Ruby Sunshine Mosaic</name>
+<resolution>40</resolution>
+<link>http://www.serenaandlily.com/Fabric/Fabrics-Ruby-Sunshine-Mosaic</link>
+<note/>
+</fabric_item>
+
+<fabric_item>
+<sku>FABR-CH39-U</sku>
+<name>Seaglass Linen</name>
+<resolution>120</resolution>
+<link/>
+<note>not found in Fabrics by the Yard on 09.16.2009</note>
+</fabric_item>
+
+<fabric_item>
+<sku>FABR-CH50-U</sku>
+<name>Sky Blue Twill</name>
+<resolution>120</resolution>
+<link>http://www.serenaandlily.com/Fabric/Fabrics-Sky-Blue-Twill</link>
+<note/>
+</fabric_item>
+
+<fabric_item duplicate="true" fabric_itemkey="02">
+<sku>FABR-CH28</sku>
+<name>Slate/Goldenrod Mosaic</name>
+<resolution>190</resolution>
+<link>http://www.serenaandlily.com/Fabric/Fabrics-Slate-Goldenrod-Mosaic</link>
+<note/>
+</fabric_item>
+
+<fabric_item duplicate="true" fabric_itemkey="02">
+<sku>FABR-CH28</sku>
+<name>Slate Goldenrod Mosaic</name>
+<resolution>190</resolution>
+<link>http://www.serenaandlily.com/Fabric/Fabrics-Slate-Goldenrod-Mosaic</link>
+<note/>
+</fabric_item>
+
+<fabric_item>
+<sku>FABR-CH26</sku>
+<name>Slate Seersucker</name>
+<resolution>120</resolution>
+<link>http://www.serenaandlily.com/Fabric/Fabrics-Slate-Seersucker</link>
+<note/>
+</fabric_item>
+
+<fabric_item>
+<sku>FABR-CH2</sku>
+<name>Sprout Damask</name>
+<resolution>100</resolution>
+<link>http://www.serenaandlily.com/Fabric/Fabrics-Sprout-Damask</link>
+<note/>
+</fabric_item>
+
+<fabric_item>
+<sku>FABR-CH21</sku>
+<name>Sprout Star</name>
+<resolution>150</resolution>
+<link>http://www.serenaandlily.com/Fabric/Fabrics-Sprout-Star</link>
+<note/>
+</fabric_item>
+
+<fabric_item>
+<sku>FABR-18D-U</sku>
+<name>Sprout Twill</name>
+<resolution>120</resolution>
+<link>http://www.serenaandlily.com/Fabric/Fabric-Sprout-Twill-Upholstery-Weight</link>
+<note/>
+</fabric_item>
+
+<fabric_item>
+<sku>FABR-3</sku>
+<name>Watermelon Linen</name>
+<resolution>120</resolution>
+<link>http://www.serenaandlily.com/Fabric/Fabrics-Watermelon-Linen</link>
+<note/>
+</fabric_item>
+
+<fabric_item>
+<sku>FABR-CH110</sku>
+<name>White Basketweave</name>
+<resolution>60</resolution>
+<link>http://www.serenaandlily.com/Fabric/Fabrics-White-Basketweave</link>
+<note/>
+</fabric_item>
+
+<fabric_item duplicate="true" fabric_itemkey="12">
+<sku>FABR-45-U</sku>
+<name>White Diamond Matelasse</name>
+<resolution>120</resolution>
+<link>http://www.serenaandlily.com/Fabric/Fabrics-White-Diamond-Matelasse-Upholsery-Weight</link>
+<note/>
+</fabric_item>
+
+<fabric_item duplicate="true" fabric_itemkey="12">
+<sku>FABR-45-U</sku>
+<name>White Matelasse</name>
+<resolution>120</resolution>
+<link>http://www.serenaandlily.com/Fabric/Fabrics-White-Diamond-Matelasse-Upholsery-Weight</link>
+<note/>
+</fabric_item>
+
+<fabric_item>
+<sku>FABR-CH32-U</sku>
+<name>White Twill</name>
+<resolution>120</resolution>
+<link>http://www.serenaandlily.com/Fabric/Fabrics-White-Twill-Upholstery-Weight</link>
+<note/>
+</fabric_item>
+
+</fabrics>
