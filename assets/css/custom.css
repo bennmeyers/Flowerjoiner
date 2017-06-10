@@ -73,18 +73,18 @@ footer .col-md-12 {
 
 @media (max-width: 768px) {
   header{
-    padding: 15px;
+    padding:15px;
   }
   .navbar-header {
-    clear: both;
-    float: none;
+    clear:both;
+    float:none;
   }
   .col-sm-4,
   .col-md-6 {
-    padding: 0;
+    padding:0;
   }
   #content {
-    margin-top: 176px;
-    padding: 15px;
+    margin-top:232px;
+    padding:15px;
   }
 }
