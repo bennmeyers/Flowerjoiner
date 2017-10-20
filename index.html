@@ -33,15 +33,16 @@
       <nav class="navbar-header">
         <ul class="nav navbar-nav">
           <li><a href="index.html">home</a></li>
-          <li><a href="portfolio.html">portfolio <small>(old)</small></a></li>
+          <li><a href="portfolio.html">portfolio</a></li>
           <li><a href="code.html">code</a></li>
           <li><a href="process.html">process</a></li>
+          <li><a href="projects.html">projects</a></li>
         </ul>
       </nav>
     </div>
   </header>
   <div id="content" class="row">
-    <div id="main_content" role="main" class="col-md-9">
+    <main id="main_content" role="main" class="col-md-9">
       <div class="row professional">
         <h2>most recent work</h2>
         <figure class="col-md-6 first">
@@ -105,22 +106,16 @@
 &lt;/svg&gt;</code></pre>
         </div>
       </div>
-    </div><!-- #main_content -->
+    </main><!-- #main_content -->
     <aside id="sidebar" class="col-md-3" role="complementary">
-      <a href="https://secure.nationalmssociety.org/site/Donation2?df_id=55896&PROXY_ID=8643532&PROXY_TYPE=20&FR_ID=27080&s_src=BF_emailbadge&_ga=1.131583306.43404973.1464564988" target="new" class="btn btn-primary col-md-12">Fight MS with me</a>
-      <br>
-      <br>
       <a href="https://www.learngreenflower.com/courses/10/cannabis-treat-substance-dependence-addiction-amanda-reiman" target="new" class="btn btn-primary col-md-12" title="Green Flower Media">Treating Substance Addiction</a>
     </aside><!-- #sidebar -->
   </div><!-- #content -->
-</div><!-- #homepage -->
+</div><!-- #page-homepage -->
 <footer>
   <div class="container">
     <div class="row">
       <div class="col-md-12">
-        <a href="http://main.nationalmssociety.org/site/TR?px=8643532&pg=personal&fr_id=27080&s_src=BF_emailbadge" target="new" title="Fundraising Status"><img style="border:0" src="http://bfapps1.boundlessfundraising.com/badge/nmss/display/8643532/27080/status.jpg" alt="Fundraising Status" /></a>
-        <br>
-        <br>
         <a href="http://jigsaw.w3.org/css-validator/check/referer">
           <img style="border:0;width:88px;height:31px" src="http://jigsaw.w3.org/css-validator/images/vcss" alt="Valid CSS!" />
         </a>
@@ -133,15 +128,14 @@
 <script src="assets/js/jquery.fancybox.pack.js"></script>
 <script src="assets/js/custom-shared.js"></script>
 <script src="assets/js/portfolio.js"></script>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-11744746-1"></script>
 <script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
-  ga('create', 'UA-11744746-1', 'auto');
-  ga('send', 'pageview');
-
+  gtag('config', 'UA-11744746-1');
 </script>
 </body>
 </html>
