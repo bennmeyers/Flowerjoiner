@@ -3,6 +3,22 @@
 <projects version="1" xmlns="http://xspf.org/ns/0/">
 	<professional>
 		<project>
+			<website>Imajinnation</website>
+			<section>Site</section>
+			<link></link>
+			<description>I made CSS, HTML, Javascript and PHP on Carl 'Djinn' Lewis portfolio, a wordpress instance.</description>
+			<thumbnail>imajinnation</thumbnail>
+			<demolink></demolink>
+		</project>
+		<project>
+			<website>Global Lives Project</website>
+			<section>Site</section>
+			<link></link>
+			<description>The Global Lives Project is an Art Installation website I maintain and improve upon as needed.</description>
+			<thumbnail>glp</thumbnail>
+			<demolink></demolink>
+		</project>
+		<project>
 			<website>Norse Corporation v5</website>
 			<section>Site</section>
 			<link></link>
