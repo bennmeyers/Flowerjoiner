@@ -72,6 +72,9 @@ footer .col-md-12 {
 #content {
   margin-top: 32px;
 }
+#page-portfolio .col-sm-4{
+  height:300px;
+}
 
 @media (max-width: 768px) {
   header{
