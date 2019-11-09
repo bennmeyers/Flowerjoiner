@@ -1,10 +1,11 @@
 body{
+  background: $white;
   color:$font-color;
+  font:16px $base-font;
   padding:0;
-  font:15px $base-font;
 }
 
-a{
+a {
   color:$blue
 }
 
@@ -13,31 +14,29 @@ header {
   @include box-shadow(0, 4px, 4px, rgba(0, 0, 0, 0.1))
 }
 
-.zoomin{
+.card p {
+  margin-bottom: 0;
+  margin-top: 1rem;
 }
 
-/* Chrome, Safari, Opera */
-@-webkit-keyframes zoomin {
-  from {
-    height:0px;
-    width:0px;
-  }
-  to {
-    height:29px;
-    width:134px;
-  }
+.navbar-default,
+.card-header {
+  background-color: lighten($green, 20%);
 }
 
-/* Standard syntax */
-@keyframes zoomin {
-  from {
-    height:0px;
-    width:0px;
-  }
-  to {
-    height:29px;
-    width:134px;
-  }
+.btn-primary:hover {
+  background-color:darken($blue, 10%);
+  border-color:darken($blue, 10%);
+}
+
+.btn-primary {
+  background-color:$blue;
+  border-color:$blue;
+}
+
+.btn-secondary {
+  background-color:$grey;
+  border-color:$grey;
 }
 
 .status {

@@ -1,6 +1,6 @@
 // Definitions
 $black:           #1a1a1a;
-$blue:            #7584ac;
+$blue:            #727e9c;
 $green:           #dcf29c;
 $grey:            #888;
 $orange:          #ffd8a4;
@@ -23,7 +23,7 @@ $status-color:    $red;
 
 $gutter:          16px;
 
-$base-font:       Helvetica, Geneva, sans-serif;
+$base-font:       'Lato', "Helvetica Neue", Helvetica, Arial, sans-serif;
 
 @mixin border-radius($radius) {
   -webkit-border-radius: $radius;
