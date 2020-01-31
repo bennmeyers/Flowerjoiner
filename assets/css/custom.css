@@ -46,3 +46,7 @@ header {
   font-size: 70%;
   text-transform: uppercase;
 }
+
+#skills td {
+  cursor: pointer;
+}
