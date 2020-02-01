@@ -51,3 +51,12 @@ header {
 #skills td {
   cursor: pointer;
 }
+
+#skills .on {
+  background-color: lighten($grey, 30%);
+}
+
+.btn-default {
+  border: 2px solid lighten($grey, 30%);
+  margin-left: 10px;
+}

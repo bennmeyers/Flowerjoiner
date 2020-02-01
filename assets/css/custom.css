@@ -50,3 +50,12 @@ header {
 #skills td {
   cursor: pointer;
 }
+
+#skills .on {
+  background-color: #d5d5d5;
+}
+
+.btn-default {
+  border: 2px solid #d5d5d5;
+  margin-left: 10px;
+}
