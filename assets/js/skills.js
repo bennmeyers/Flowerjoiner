@@ -3,8 +3,20 @@ function setOn(passedTheme){
 		$("." + passedTheme).addClass("on"); // add the on class
 	}
 };
+function setOff(passedTheme){
+	if(passedTheme){
+		$("." + passedTheme).removeClass("on"); // remove the on class
+	}
+};
 
 $(document).ready(function(){
+	$('#skills input[type="checkbox"]').click(function(){
+		if($(this).is(":checked")){
+			setOn($(this).val());
+		} else if($(this).is(":not(:checked)")){
+			setOff($(this).val());
+		}
+	});
 	$("#skills td").mouseout(function(){
 		$("#skills td").removeClass("on"); // remove the on class
 	});
