@@ -10,6 +10,10 @@ function setOff(passedTheme){
 };
 
 $(document).ready(function(){
+	$('#skills a').click(function(){
+		$("#skills td").removeClass("on"); // remove the on class
+		$('#skills input[type="checkbox"]').prop("checked", false);
+	})
 	$('#skills input[type="checkbox"]').click(function(){
 		if($(this).is(":checked")){
 			setOn($(this).val());
