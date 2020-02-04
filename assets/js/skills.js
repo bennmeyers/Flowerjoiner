@@ -1,12 +1,14 @@
 function setOn(passedTheme){
 	if(passedTheme){
 		$("." + passedTheme).addClass("on"); // add the on class
+		$('#skills input[type="checkbox"].' + passedTheme).prop("checked", true);
 	}
 };
 function setOff(passedTheme){
 	if(passedTheme){
 		$("." + passedTheme).removeClass("on"); // remove the on class
-	}
+		$('#skills input[type="checkbox"].' + passedTheme).prop("checked", false);
+	};
 };
 
 $(document).ready(function(){
@@ -23,6 +25,7 @@ $(document).ready(function(){
 	});
 	$("#skills td").mouseout(function(){
 		$("#skills td").removeClass("on"); // remove the on class
+		$('#skills input[type="checkbox"]').prop("checked", false);
 	});
 	$("#skills td").mouseover(function(){
 		themes = $(this).attr("class"); // get the classes
