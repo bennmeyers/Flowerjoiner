@@ -64,3 +64,15 @@ header {
 .card img {
   width: 100%;
 }
+
+#skills td,
+#other td {
+  font-style: italic;
+  a {
+    font-style: normal;
+    font-weight: bold;
+  }
+  b {
+    font-style: normal;
+  }
+}
