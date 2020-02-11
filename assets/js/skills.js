@@ -24,9 +24,16 @@ function setOff(passedTheme){
 };
 
 $(document).ready(function(){
-	$('#skills a').click(function(){
-		$("#skills td").removeClass("on"); // remove the on class
-		$('#skills input[type="checkbox"]').prop("checked", false);
+	var docEls = document.querySelectorAll("#skills a");
+	[].forEach.call(docEls, function(docEl) {
+		var els = document.querySelectorAll("#skills td");
+		[].forEach.call(els, function(el) {
+			el.classList.remove("on");
+		});
+		var inputEls = document.querySelectorAll('#skills input[type="checkbox"]');
+		[].forEach.call(inputEls, function(el) {
+			el.checked="false";
+		});
 	})
 	$('#skills input[type="checkbox"]').click(function(){
 		if($(this).is(":checked")){
