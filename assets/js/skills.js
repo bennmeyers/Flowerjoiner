@@ -2,18 +2,24 @@ function setOn(passedTheme){
 	if(passedTheme){
 		var els = document.querySelectorAll("." + passedTheme);
 		[].forEach.call(els, function(el) {
-		    el.classList.add("on");
+			el.classList.add("on");
 		});
-		$('#skills input[type="checkbox"].' + passedTheme).prop("checked", true);
+		var inputEls = document.querySelectorAll('#skills input[type="checkbox"].' + passedTheme);
+		[].forEach.call(inputEls, function(el) {
+			el.checked="true";
+		});
 	}
 };
 function setOff(passedTheme){
 	if(passedTheme){
 		var els = document.querySelectorAll("." + passedTheme);
 		[].forEach.call(els, function(el) {
-		    el.classList.remove("on");
+			el.classList.remove("on");
 		});
-		$('#skills input[type="checkbox"].' + passedTheme).prop("checked", false);
+		var inputEls = document.querySelectorAll('#skills input[type="checkbox"].' + passedTheme);
+		[].forEach.call(inputEls, function(el) {
+			el.checked="false";
+		});
 	};
 };
 
