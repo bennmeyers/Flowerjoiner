@@ -1,12 +1,18 @@
 function setOn(passedTheme){
 	if(passedTheme){
-		$("." + passedTheme).addClass("on"); // add the on class
+		var els = document.querySelectorAll("." + passedTheme);
+		[].forEach.call(els, function(el) {
+		    el.classList.add("on");
+		});
 		$('#skills input[type="checkbox"].' + passedTheme).prop("checked", true);
 	}
 };
 function setOff(passedTheme){
 	if(passedTheme){
-		$("." + passedTheme).removeClass("on"); // remove the on class
+		var els = document.querySelectorAll("." + passedTheme);
+		[].forEach.call(els, function(el) {
+		    el.classList.remove("on");
+		});
 		$('#skills input[type="checkbox"].' + passedTheme).prop("checked", false);
 	};
 };
