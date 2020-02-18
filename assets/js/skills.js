@@ -25,13 +25,13 @@ function setOff(passedTheme){ // deactivate theme
 };
 
 var docEls = document.querySelectorAll("#skills a");
-[].forEach.call(docEls, function(docEl) {
-	var els = document.querySelectorAll("#skills td");
+[].forEach.call(docEls, function(docEl) { // cycle the anchor names
+	var els = document.querySelectorAll("#skills td"); // remove the classes
 	[].forEach.call(els, function(el) {
 		el.classList.remove("on");
 	});
 	var inputEls = document.querySelectorAll('#skills input[type="checkbox"]');
-	[].forEach.call(inputEls, function(el) {
+	[].forEach.call(inputEls, function(el) { // uncheck the boxes
 		el.checked = false;
 	});
 })
