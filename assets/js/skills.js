@@ -1,11 +1,11 @@
-function setOn(passedTheme){  // activate theme
+function setOn(passedTheme){ // activate theme
 	if(passedTheme){
 		var passedEls = document.querySelectorAll("." + passedTheme);
-		[].forEach.call(passedEls, function(el) {
+		[].forEach.call(passedEls, function(el) { // activate on class
 			el.classList.add("on");
 		});
 		var inputEls = document.querySelectorAll('#skills input[type="checkbox"].' + passedTheme);
-		[].forEach.call(inputEls, function(el) {
+		[].forEach.call(inputEls, function(el) { // activate checkbox
 			el.checked = true;
 		});
 	}
@@ -14,11 +14,11 @@ function setOn(passedTheme){  // activate theme
 function setOff(passedTheme){ // deactivate theme
 	if(passedTheme){
 		var passedEls = document.querySelectorAll("." + passedTheme);
-		[].forEach.call(passedEls, function(el) {
+		[].forEach.call(passedEls, function(el) { // deactivate on class
 			el.classList.remove("on");
 		});
 		var inputEls = document.querySelectorAll('#skills input[type="checkbox"].' + passedTheme);
-		[].forEach.call(inputEls, function(el) {
+		[].forEach.call(inputEls, function(el) { // deactivate checkbox
 			el.checked = false;
 		});
 	};
@@ -26,12 +26,12 @@ function setOff(passedTheme){ // deactivate theme
 
 var docEls = document.querySelectorAll("#skills a");
 [].forEach.call(docEls, function(docEl) { // cycle the anchor names
-	var els = document.querySelectorAll("#skills td"); // remove the classes
-	[].forEach.call(els, function(el) {
+	var els = document.querySelectorAll("#skills td");
+	[].forEach.call(els, function(el) { // deactivate the on classes
 		el.classList.remove("on");
 	});
 	var inputEls = document.querySelectorAll('#skills input[type="checkbox"]');
-	[].forEach.call(inputEls, function(el) { // uncheck the boxes
+	[].forEach.call(inputEls, function(el) { // deactivate the checkboxes
 		el.checked = false;
 	});
 })
