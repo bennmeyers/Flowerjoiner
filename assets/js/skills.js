@@ -1,7 +1,7 @@
 function setOn(passedTheme){ // activate theme
 	if(passedTheme){
 		var passedEls = document.querySelectorAll("." + passedTheme);
-		[].forEach.call(passedEls, function(el) { // activate on class
+		[].forEach.call(passedEls, function(el) { // activate the "on" class
 			el.classList.add("on");
 		});
 		var inputEls = document.querySelectorAll('#skills input[type="checkbox"].' + passedTheme);
@@ -14,7 +14,7 @@ function setOn(passedTheme){ // activate theme
 function setOff(passedTheme){ // deactivate theme
 	if(passedTheme){
 		var passedEls = document.querySelectorAll("." + passedTheme);
-		[].forEach.call(passedEls, function(el) { // deactivate on class
+		[].forEach.call(passedEls, function(el) { // deactivate the "on" class
 			el.classList.remove("on");
 		});
 		var inputEls = document.querySelectorAll('#skills input[type="checkbox"].' + passedTheme);
@@ -27,7 +27,7 @@ function setOff(passedTheme){ // deactivate theme
 var docEls = document.querySelectorAll("#skills a");
 [].forEach.call(docEls, function(docEl) { // cycle the anchor names
 	var els = document.querySelectorAll("#skills td");
-	[].forEach.call(els, function(el) { // deactivate the on classes
+	[].forEach.call(els, function(el) { // deactivate the "on" classes
 		el.classList.remove("on");
 	});
 	var inputEls = document.querySelectorAll('#skills input[type="checkbox"]');
