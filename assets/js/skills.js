@@ -23,7 +23,7 @@ function setOff(passedTheme){ // deactivate theme
 		});
 	};
 };
-
+/*
 var docEls = document.querySelectorAll("#skills a");
 [].forEach.call(docEls, function(docEl) { // cycle the anchor names
 	var els = document.querySelectorAll("#skills td");
@@ -35,6 +35,22 @@ var docEls = document.querySelectorAll("#skills a");
 		el.checked = false;
 	});
 })
+*/
+function mouseoverHandler(docEl) {
+  var img = docEl.target;
+  img.classList.add("on");
+}
+
+function mouseoutHandler(docEl) {
+  var img = docEl.target;
+  img.classList.remove("on");
+}
+
+document.querySelectorAll("#skills td").forEach(function (docEl) {
+  docEl.onmouseover = mouseoverHandler;
+  docEl.onmouseout = mouseoutHandler;
+});
+
 
 /* reset
 document.getElementById("skills_checkboxes").onclick = setOff(all);
