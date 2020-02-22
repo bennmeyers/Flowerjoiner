@@ -47,7 +47,20 @@ function mouseoutHandler(docEl) {
 	}
 }
 
+function clickHandler(docEl) {
+	console.log(docEl.target.checked)
+	if(docEl.target.checked = "false") {
+		setOn(docEl.target.value);
+	} else if (docEl.target.checked = "true") {
+		setOff(docEl.target.value);
+	}
+}
+
 document.querySelectorAll("#skills td").forEach(function (docEl) {
-  docEl.onmouseover = mouseoverHandler;
-  docEl.onmouseout = mouseoutHandler;
+	docEl.onmouseover = mouseoverHandler;
+	docEl.onmouseout = mouseoutHandler;
+});
+
+document.querySelectorAll('#skills_checkboxes input[type="checkbox"]').forEach(function (docEl) {
+	docEl.onclick = clickHandler;
 });
