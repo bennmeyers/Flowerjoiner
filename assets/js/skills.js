@@ -5,10 +5,10 @@ function setOn(passedTheme){ // activate theme
 			el.classList.add("on");
 		});
 		var inputEls = document.querySelectorAll('#skills input[type="checkbox"].' + passedTheme);
-		[].forEach.call(inputEls, function(el) { // activate checkbox
-			el.checked = true;
+		[].forEach.call(inputEls, function(passededIn) { // activate checkbox
+			passededIn.checked = true;
 		});
-	}
+	};
 };
 
 function setOff(passedTheme){ // deactivate theme
@@ -18,41 +18,43 @@ function setOff(passedTheme){ // deactivate theme
 			el.classList.remove("on");
 		});
 		var inputEls = document.querySelectorAll('#skills input[type="checkbox"].' + passedTheme);
-		[].forEach.call(inputEls, function(el) { // deactivate checkbox
-			el.checked = false;
+		[].forEach.call(inputEls, function(passededIn) { // deactivate checkbox
+			passededIn.checked = false;
 		});
 	};
 };
+
 function mouseoverHandler(docEl) {
 	themes = docEl.target.classList.value; // get the classes
-	if(themes){
-		theme = themes.split(" "); // split the classes
+	if (!themes) {
+		themes = docEl.target.parentElement.classList.value; // get the classes of the parent element
 	}
+	theme = themes.split(" "); // split the classes
 	for(var i = 0; i < theme.length; i++) {
-		if(theme[i]){
-			setOn(theme[i]); // add the on class and check the box
+		if(theme[i]) {
+			setOn(theme[i]); // add the "on" class and check the box
 		}
 	}
 }
 
 function mouseoutHandler(docEl) {
 	themes = docEl.target.classList.value; // get the classes
-	if(themes){
-		theme = themes.split(" "); // split the classes
+	if (!themes) {
+		themes = docEl.target.parentElement.classList.value; // get the classes of the parent element
 	}
+	theme = themes.split(" "); // split the classes
 	for(var i = 0; i < theme.length; i++) {
 		if(theme[i]){
-			setOff(theme[i]); // remove the on class and uncheck the box
+			setOff(theme[i]); // remove the "on" class and uncheck the box
 		}
 	}
 }
 
 function clickHandler(docEl) {
-	console.log(docEl.target.checked)
-	if(docEl.target.checked = "false") {
-		setOn(docEl.target.value);
-	} else if (docEl.target.checked = "true") {
+	if(docEl.target.checked == "") {
 		setOff(docEl.target.value);
+	} else {
+		setOn(docEl.target.value);
 	}
 }
 
