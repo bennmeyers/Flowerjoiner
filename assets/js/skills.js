@@ -59,8 +59,7 @@ function clickHandler(docEl) {
 }
 
 document.querySelectorAll("#skills td").forEach(function (docEl) {
-	docEl.onmouseover = mouseoverHandler;
-	docEl.onmouseout = mouseoutHandler;
+	docEl.onclick = mouseoverHandler;
 });
 
 document.querySelectorAll('#skills_checkboxes input[type="checkbox"]').forEach(function (docEl) {
